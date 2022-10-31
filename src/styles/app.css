@@ -1,0 +1,35 @@
+/* blog page styling start here */
+
+.blog-dropdown{
+    color: white;
+}
+.blog-main-image{
+    background-image:url('../assets/img/DSC_0732.JPG');
+    width: 100%;
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    /* background-attachment: fixed; */
+    height: 100%;
+}
+.last-blog-page{
+    background-image:url('../assets/img/DSC_0732.JPG');
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+}
+
+.blog-main-image{
+    height: 50vh;
+}
+/* .blog-news-content{
+    display: flex;
+    justify-content: space-between;
+} */
+/* /* .blog-news-info-1 img{
+    width: 300px;
+    height: 200px;
+} */
+/* .blog-news-info-1 img{
+    width: 300px;
+    height: 200px;
+}  */
