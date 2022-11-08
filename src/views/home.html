@@ -4,28 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home| Bluvard</title>
+    <title> Bluvard | Home</title>
     <link rel="stylesheet" href="/bluvardWebsite/src/styles/app.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <style>
   /* Start the home Css */
+
+  /* UTILITIES */
+body {
+ font-family: "kumbh sans" 'sans serif';
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/* End of Utilities */
+/* NAVBAR STYLING STARTS */
+.logo{
+  color: #ac8101;
+  border-radius: 15px;
+  border-left: 3px solid #ac8101;
+  border-top: 3px solid #ac8101;
+  padding: 1px;
+}
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ border-bottom: 15px solid #ac8101;
+ border-radius: 1px;
+}
+.nav-links a {
+ color: #212529;
+}
+.nav-links a:hover{
+  color: #fff;
+}
+
+.active_list{
+  background-color: #ac8101 !important;
+  border-radius: 5px; 
+  padding: 5px 14px;
+  font-weight:bolder;
+  font-size: 20px;
+}
+/* LOGO */
+.logo {
+ font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+}
+.menu li:hover {
+ background-color: #212529;
+ color: white;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.menu li {
+ padding: 5px 14px;
+}
+
+/* End of Nav */
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+ display: none;
+} 
+/*HAMBURGER MENU*/
+.hamburger {
+ display: none;
+ font-size: 24px;
+ user-select: none;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .nav-links{
+    margin-top: 15px;
+  }
+  .nav-links a {
+ color: #fff;
+  }
+  .active_list{
+  background-color: #ac8101;
+  border-radius: 5px; 
+  padding: 5px 14px;
+  font-weight:bolder;
+  font-size: 20px;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+  }
+  .active_list:hover{
+  background-color:  #212529 !important;
+  border-radius: 5px; 
+  padding: 5px 14px;
+  font-weight:bolder;
+  font-size: 20px;
+  color:#ac8101;
+  width: 50%;
+  margin: auto;
+  }
+  .menu { 
+  display:none;
+  position: absolute;
+  background-color:rgb(8, 9, 9);
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 16px 0;
+  }
+  .menu li , a{
+    font-size: 10pt;
+  }
+  .menu li:hover {
+  display: inline-block;
+  background-color:#212529;
+  transition: 0.3s ease;
+  }
+  .menu li + li {
+  margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu{
+  display: block;
+  z-index: 3;
+  }
+  .hamburger {
+  display: block;
+  }
+}
+
+/* End of APPLYING MEDIA QUERIES */
 .content{
-    top: 10%;
+    top: 30%;
+    left: 12%;
     position: absolute;
     color: white;
-    padding: 5%;
     font-size: 75px;
     font-weight: 500;
     z-index: 2;
 }
 
 .carousel{
-  padding-top: 20px;
   box-sizing: border-box;
-  padding-bottom: 5%;
-  backdrop-filter: unset;
 }
 .carousel-inner{
   max-height:500px;
@@ -44,48 +174,158 @@
   background-blend-mode: ;
   z-index: 1;
 }
+
+.content-btn{
+  margin:0px 20px 0px 0px;
+  padding: 8px 32px;
+  border-radius: 20px;
+  border: solid transparent;
+  font-family: "kumbh sans" sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  text-align: center;
+  background-color: #ac8101;
+  box-sizing: border-box;
+}
+.content-partner-btn{
+  font-family: "kumbh sans" sans-serif;
+  padding: 8px 32px;
+  margin:0px 20px 0px 0px;
+  border-radius: 20px;
+  border: 3px solid white !important;
+  font-size:16pt;
+  font-weight: 400;
+  text-align: center;
+  background-color:transparent;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .content{
+    padding-top: 10%;
+    top: 25%;
+    left: 15%;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    z-index: 2;
+  }
+
+  .carousel{
+  box-sizing: border-box;
+  backdrop-filter: unset;
+  }
+  .carousel-inner{
+  max-height:400px;
+  }
+  .carousel-inner img{
+  object-position: center;
+  height: 100%;
+  object-fit: contain;
+  }
+  .carousel-inner::before{
+  content: "";
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.776);
+  background-blend-mode: ;
+  z-index: 1;
+  }
+  .content h1, h2{
+  font-size: 15pt;
+  }
+  .content_btn{
+  display: flex;
+  }
+  .content-btn{
+  margin:0px 20px 0px 0px;
+  padding: 4px 16px;
+  border-radius: 20px;
+  border: solid transparent;
+  font-family: "kumbh sans" sans-serif;
+  font-size: 10pt;
+  font-weight: 100;
+  text-align: center;
+  background-color: #ac8101;
+  box-sizing: border-box;
+  }
+  .content-partner-btn{
+  padding: 4px 6px;
+  margin:0px 20px 0px 0px;
+  border-radius: 20px;
+  border: 3px solid white !important;
+  font-size:10pt;
+  font-weight: 100;
+  text-align: center;
+  background-color:transparent;
+  box-sizing: border-box;
+  }
+ 
+}
+
 /* End of the home Css */
 </style>
+
 <body>
-   <header id="header d-flex ">
-    <nav class="nav nav-pills nav-fill pt-4 pe-3">
-        <a class="logo pe-5 nav-item nav-link " href=""> <strong>Bluvard</strong></a>
-        <a class="nav-item nav-link " href="#">About</a>
-        <a class="nav-item nav-link" href="#">Blog</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
-        <a class="nav-item nav-link bg-warning text-dark " href="#">Donate</a>
-      </nav>
-   </header>
-   <div class="carousel"> 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../assets/img/Boys-playing.jpg " class="d-block w-100"  alt="...">
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Bluvard</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li class="services">
+            <a href="/">Services</a>
+          </li>
+          <li class="active_list" ><a href="/"> <span>Contact</span> </a></li>
         </div>
-        <div class="carousel-item">
-          <img src="../assets/img/kids-holding-notebooks-700px.jpg" class="d-block w-100" alt="...">
+      </ul>
+    </nav>
+    <div class="carousel"> 
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/img/Boys-playing.jpg " class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/kids-holding-notebooks-700px.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/img/kids.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="content">
+            <h1> The gem in rough is unravel</h1>
+            <h2>Seeking the gem to brush up and shine forth</h2>
+            <div class="content_btn_group">
+              <button class=" content-btn  border-shadow  text-white">Scholarship programme</button>
+              <button class=" content-partner-btn border   border-shadow   text-white">Partner with Us</button>
+            </div>          
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="../assets/img/kids.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="content">
-          <h1> The gem in rough is unravel</h1>
-          <h2>Seeking the gem to brush and shine forth</h2>
-          <div class="btn d-flex pt-4"></div>
-          <button class="border border-2 border-shadow bg-warning btn text-white">Scholarship programme</button>
-          <button class="border border-2 border-shadow  btn text-white">Partner with Us</button>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+    </div>
+    <section>
+      <div class="home_video_content container pt-5  ">
+        <video controls loop src="/bluvardWebsite/src/assets/video/VID-20221009-WA0008.mp4" width="100%" height="100%"  poster="benefits-of-coding.jpg" class="rounded rounded-5 " ></video>      
+      </div>                
+    </section>
 </body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <!-- JavaScript Bundle with Popper -->
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

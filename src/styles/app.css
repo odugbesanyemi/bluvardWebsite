@@ -21,3 +21,15 @@
 .blog-main-image{
     height: 50vh;
 }
+.container
+        {
+        float:right;
+        position:relative;
+        display:inline-block;
+        }
+    
+        .container img
+        {
+        float:left;
+        }
+    
