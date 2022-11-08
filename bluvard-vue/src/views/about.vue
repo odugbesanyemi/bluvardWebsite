@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Chess in slums</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="..\styles\app.css">
-</head>
-<body>
+<template>
     <section class="aboutUs container">
         <div class="about-header pb-md-5">
             <h3 class="text-secondary pb-4">FOUNDER'S VISION</h3>
@@ -25,7 +14,6 @@
                 <img class="w-100 h-75 rounded" src="/bluvardWebsite/src/assets/img/pretty-lady.jpg" alt="">
             </div>
         </div>
-
     </section>
     <section class="bg-light">
         <div class="container">
@@ -129,8 +117,10 @@
  
         </div>
     </section>
+</template>
+<style>
+</style>
 
+<script setup>
+</script>
 
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-</html>
