@@ -1,27 +1,6 @@
 
 <style>
-    .first-message{
-        padding: 100px 0px 0px 50px;
-    }
-
-    .second-message {
-        background-color: rgb(243, 240, 240);
-        height: 50vh;
-        padding-left: 50px; 
-    }
-
-    .second-message h5{
-        padding-top: 30px;
-    }
-
-    .img img{
-        width: 100%;
-        height: 50vw;
-        background-size: cover;
-        padding-bottom: 20px;
-    }
-
-        li{
+    li{
     list-style: none;
     }
 
@@ -31,21 +10,42 @@
     cursor: pointer;
     font-size: 14px;
     }
+
+    .donate{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .donate button{
+        border-radius: 20px;
+        /* width: 30%; */
+        background: rgb(186,140,0);
+        color: white;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
 </style>
 <template>
     <section>
+        <!-- Body Content goes here -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="first-message">
-                        <h5>We’d love to hear from you</h5>
-                        <p>Kindly reach out to us using any of the medium and <br> we will be sure to get back to you.</p>
+                    <div class="first-message m-5 p-3">
+                        <h2>We’d love to hear from you</h2>
+                        <p>Kindly reach out to us using any of the medium and <br>
+                            we will be sure to get back to you.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="second-message">
-                        <h5>Contact details</h5>
-                        <div class="d-flex flex-row">
+                    <div class="second-message bg-danger text-white">
+                        <h5 class="p-4">Contact details</h5>
+                        <div class="d-flex flex-row m-2">
                             <div class="p-2"><h6>Phone</h6>
                                 <p>XXXXXXXXXXX</p>
                             </div>
@@ -53,68 +53,22 @@
                                 <p>XXXXXXXXXXX</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="email">
-                        <h6>Email</h6>
-                        <p>Lorem, ipsum dolor. <br>
-                            Lorem, ipsum dolor. <br>
-                            Lorem, ipsum dolor.</p>
+                        <div class="email p-3">
+                            <h6>Email</h6>
+                            <p>Lorem, ipsum dolor. <br>
+                                Lorem, ipsum dolor. <br>
+                                Lorem, ipsum dolor.</p>
 
-                        <h6>Address</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
-                            Lorem, ipsum dolor.</p>
+                            <h6>Address</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                                Lorem, ipsum dolor.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="img">
-            <img src="assets/img/kids-holding-notebooks-700px.jpg">
-        </div>  
-        <div class="container">
-            <div class="col-md-3" >
-                <h5> About Us </h5>
-                <ul>
-                    <li><a href="#">The Initiative</a> </li>
-                    <li><a href="#">The Initiative</a> </li>
-                    <li><a href="#">The Initiative</a> </li>
-                    <li><a href="#">The Initiative</a> </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3">
-                <h5>More</h5>
-                <ul>
-                    <li><a href="#">Merchandise</a> </li>
-                    <li><a href="#">Donate</a> </li>
-                    <li><a href="#">News</a> </li>
-                    <li><a href="#">Volunteer</a> </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3">
-                <h5> Contact Us</h5>
-                <ul>
-                    <li><a href="#">Facebook</a> </li>
-                    <li><a href="#">Instagram</a> </li>
-                    <li><a href="#">Twitter</a> </li>
-                    <li><a href="#">Linkedln</a> </li>
-                </ul>
-            </div>
-
-            <div class="col-md-3">
-                <h5> Contact Us</h5>
-                <ul>
-                    <li><a href="#">Facebook</a> </li>
-                    <li><a href="#">Instagram</a> </li>
-                    <li><a href="#">Twitter</a> </li>
-                    <li><a href="#">Linkedln</a> </li>
-                </ul>
-            </div>             
-        </div>
-    </section>    
 </template>
 <script>
 //  export default{

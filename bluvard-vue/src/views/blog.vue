@@ -1,24 +1,17 @@
 
-<style>
-h1,
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style scoped>
 
 p {
     font-family: sans-serif;
     font-weight: 100;
 }
-
+h2{
+    font-size: 30px;
+}
 img {
     width: 100%;
     object-fit: cover;
     object-position: top;
-}
-
-h2 {
-    font-size: large;
-    font-weight: bold;
 }
 
 .blog-main-image {
@@ -26,8 +19,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100%;
-    background-color: orange;
+    min-height: 400px;
 }
 
 .blog-news-info-1 img {
@@ -43,7 +35,7 @@ h2 {
 
 <template>
     <section>
-        <div class="blog-header bg-dark w-100 h-100">
+        <!-- <div class="blog-header bg-dark w-100 h-100">
             <div class="blog-dropdown text-center">
             <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Department
@@ -55,12 +47,12 @@ h2 {
                 <a class="dropdown-item" href="#">News</a>
                 </div>
             </div>
-        </div>
-        <div class="blog-main-image text-white text-center py-5 w-100">
+        </div> -->
+        <div class="blog-main-image text-white text-center py-5 ">
             <!-- <h4 class="py-5">Latest News</h4> -->
             <!-- image targeted with external css -->
         </div>
-        <div class="blog-news-content py-5 px-3" >
+        <div class="blog-news-content py-5 px-3 container" >
             <div class="blog-news-header">
                 <div class="row">
                 <div class=" blog-news-info col-md-8">
@@ -71,8 +63,8 @@ h2 {
                         </div>
                         <div class="col">
                             <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>THE CANADIAN HIGH COMMISSION VISITS OSHODI UNDERBRIDGE</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</small></p>
+                            <h2>The Canadian High Court reprimands Buhari</h2>
+                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias....  read more<i class="fas fa-monero    "></i></small></p>
                         </div>
                     </div>
                     <div class="blog-news-info-1 row align-items-center pb-3">
@@ -140,14 +132,7 @@ h2 {
                 </div>
             </div>
         </div>
-        <div class="last-blog-page bg-secondary text-center py-5 text-white">
-            <h1>Donate to support our cause</h1>
-            <div class=" py-3">
-                <button type="button" class="btn btn-warning btn-lg text-white px-5 my-3 my-md-0" style="border-radius:20px ;">Donate</button>
-                <button type="button" class="btn btn-outline-light btn-lg text-dark px-5" style="border-radius:20px ;">Visit us</button>
-                <!-- <button type="button" class="btn btn-outline-warning">Warning</button> -->
-            </div>
-        </div>
+
     </section>    
 </template>
 
