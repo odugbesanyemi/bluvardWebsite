@@ -2,7 +2,7 @@
     <section class="aboutUs container">
         <div class="about-header pb-md-5">
             <h3 class="text-secondary pb-4">FOUNDER'S VISION</h3>
-            <h1 class="fw-bold">To empower, uplift and educate 1 million children in slum communities, in 5 years, using chess as a focal point.</h1>
+            <h1 class="">To empower, uplift and educate 1 million children in slum communities, in 5 years, using chess as a focal point.</h1>
         </div>
         <div class="about-history h-75 w-md-100 row py-5 ">
             <div class="about-description h-100 w-md-75 col-md-8 text-secondary fs-5 pe-md-5">

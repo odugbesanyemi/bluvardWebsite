@@ -1,47 +1,21 @@
+<script>
+   import myCarousel from  '../components/carousel.vue'
+   export default {
+   components: {
+    myCarousel,
+  },
+  data(){
+   return{
+      src1:'<img src="../assets/img/bluvard-img.jpg" />'
+   }
+  }
+}
+</script>
 <template>
-   <div class="carousel">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="../assets/img/Boys-playing.jpg " class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-               <img src="../assets/img/kids-holding-notebooks-700px.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-               <img src="../assets/img/kids.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="content">
-               <h1>The gem in rough is unravel</h1>
-               <h2>Seeking the gem to brush up and shine forth</h2>
-               <div class="content_btn_group">
-                  <button class="content-btn border-shadow text-white">
-                     Scholarship programme
-                  </button>
-                  <button class="content-partner-btn border border-shadow text-white">
-                     Partner with Us
-                  </button>
-               </div>
-            </div>
-         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-         </button>
-      </div>
-   </div>
-   <section>
-      <div class="home_video_content container pt-5">
-         <video controls loop src="/bluvardWebsite/src/assets/video/VID-20221009-WA0008.mp4" width="100%" height="100%"
-            poster="benefits-of-coding.jpg" class="rounded rounded-5"></video>
-      </div>
-   </section>
+   <myCarousel>
+      <img src="../assets/img/two-slum-kids.jpg" alt="">
+      <img src="../assets/img/Boys-playing.jpg" alt="">
+   </myCarousel>
 </template>
 
 <style scoped>
