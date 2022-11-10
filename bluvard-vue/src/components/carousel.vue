@@ -9,14 +9,13 @@ import { setDevtoolsHook, ssrContextKey } from 'vue';
     }
 </script>
 <template>
+  <div class="carousel">
     <a-carousel autoplay>
-      <slot></slot>
+        <slot ></slot>        
     </a-carousel>
+  </div>
   </template>
   
   <style scoped>
   /* For demo */
-  a-carousel img{
-    display: none !important;
-  }
   </style>
