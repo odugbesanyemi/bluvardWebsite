@@ -8,6 +8,7 @@ import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css'
 import "./assets/main.css";
 import "../dist/main.css"
+
 const app = createApp(App);
 app.use(router);
 app.use(Antd);

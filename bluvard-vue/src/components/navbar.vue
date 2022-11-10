@@ -1,11 +1,11 @@
 <template lang="">
 <nav class="navbar navbar-expand-lg bg-white navbar-light">
   <div class="container ">
-    <RouterLink to="/" class="navbar-brand">
+    <RouterLink to="/" class="">
         <img src="../assets/Bluvard_svg_logo.svg" alt="" class='navbarLogo' width="">
     </RouterLink>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""></span>
     </button>
     <div class="collapse navbar-collapse align-items-center justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-around w-50">
@@ -45,13 +45,5 @@ export default {
 }
 </script>
 <style >
-    .navbarLogo{
-        width: 50px;
-    }
-    .nav-link{
-        font-size: 20px;
-    }
-    .router-link-exact-active{
-        color: rgb(192, 26, 142) !important;
-    }
+
 </style>
