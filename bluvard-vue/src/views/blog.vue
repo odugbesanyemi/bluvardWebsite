@@ -35,19 +35,6 @@ img {
 
 <template>
     <section>
-        <!-- <div class="blog-header bg-dark w-100 h-100">
-            <div class="blog-dropdown text-center">
-            <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Department
-            </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">All</a>
-                <a class="dropdown-item" href="#">Blogs</a>
-                <a class="dropdown-item" href="#">Features</a>
-                <a class="dropdown-item" href="#">News</a>
-                </div>
-            </div>
-        </div> -->
         <div class="blog-main-image text-white text-center py-5 ">
             <!-- <h4 class="py-5">Latest News</h4> -->
             <!-- image targeted with external css -->

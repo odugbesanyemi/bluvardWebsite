@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="first-message m-5 p-3">
-                        <h2>We’d love to hear from you</h2>
+                        <h2 class="">We’d love to hear from you</h2>
                         <p>Kindly reach out to us using any of the medium and <br>
                             we will be sure to get back to you.</p>
                     </div>

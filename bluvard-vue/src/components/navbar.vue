@@ -1,49 +1,38 @@
 <template lang="">
-<nav class="navbar navbar-expand-lg bg-white navbar-light">
-  <div class="container ">
-    <RouterLink to="/" class="">
-        <img src="../assets/Bluvard_svg_logo.svg" alt="" class='navbarLogo' width="">
-    </RouterLink>
-    <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class=""></span>
-    </button>
-    <div class="collapse navbar-collapse align-items-center justify-content-center" id="navbarSupportedContent">
-      <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-around w-50">
-        <li class="nav-item">
-                <RouterLink to="/" class="nav-link">Home</RouterLink>
-        </li>
-        <li class="nav-item">
-            <RouterLink to="/about" class="nav-link">About</RouterLink>
-        </li>
-        <li class="nav-item">
-            <RouterLink to="/blog" class="nav-link">Blog</RouterLink>
-        </li>
-        <li class="nav-item">
-            <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
-        </li>
-      </ul>
-    </div>
-    <div class="btn-donate">
-        <RouterLink to="/contact" class="nav-link btn rounded-pill btn-outline-secondary border-0 btn-lg" >Donate</RouterLink>
-    </div>
+  <div>
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <Router-link to="/" class="mr-5 hover:text-gray-900">Home</Router-link>
+          <Router-link to="/home" class="mr-5 hover:text-gray-900">Home</Router-link>
+          <Router-link to ="/about" class="mr-5 hover:text-gray-900">about</Router-link>
+          <Router-link to ="/contact" class="hover:text-gray-900">Contact</Router-link>
+        </nav>
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">Bluvard</span>
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
   </div>
-</nav>
-    <div>
-        
-    </div>
 </template>
 <script>
-import { RouterLink, RouterView } from "vue-router";
-
+// import { RouterLink, RouterView } from "vue-router";
 export default {
-    
-    data(){
-        return{
-            // name:'navbar',
-        }
-    }
+   components:[
+      
+   ]
 }
 </script>
-<style >
-
+<style lang="">
+  
 </style>
