@@ -1,125 +1,93 @@
 
-<style scoped>
-
-p {
-    font-family: sans-serif;
-    font-weight: 100;
-}
-h2{
-    font-size: 30px;
-}
-img {
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-.blog-main-image {
-    background-image: url('../assets/img/kids-holding-notebooks-700px.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 400px;
-}
-
-.blog-news-info-1 img {
-    min-width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.aside-head img {
-    height: 200px;
-}
-</style>
 
 <template>
     <section>
-        <div class="blog-main-image text-white text-center py-5 ">
-            <!-- <h4 class="py-5">Latest News</h4> -->
-            <!-- image targeted with external css -->
-        </div>
-        <div class="blog-news-content py-5 px-3 container" >
-            <div class="blog-news-header">
-                <div class="row">
-                <div class=" blog-news-info col-md-8">
-                    <h1 class="fw-bold fs-2 mb-3">Latest Blogs</h1>
-                    <div class="blog-news-info-1 row align-items-center pb-3">
-                        <div class=" col">
-                            <img src="/src/assets/img/Boys-playing.jpg"  alt="" class="">
-                        </div>
-                        <div class="col">
-                            <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>The Canadian High Court reprimands Buhari</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias....  read more<i class="fas fa-monero    "></i></small></p>
-                        </div>
-                    </div>
-                    <div class="blog-news-info-1 row align-items-center pb-3">
-                        <div class=" col">
-                            <img src="/src/assets/img/kids-holding-notebooks-700px.jpg"  alt="" class="">
-                        </div>
-                        <div class="col">
-                            <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>CHECKMATING TEENAGE PREGNANCY</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</small></p>
-                        </div>
-                    </div>
-                    <div class="blog-news-info-1 row align-items-center pb-3">
-                        <div class=" col">
-                            <img src="/src/assets/img/DSC_0732.JPG"  alt="" class="">
-                        </div>
-                        <div class="col">
-                            <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>CHECKMATING TEENAGE PREGNANCY</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</small></p>
-                        </div>
-                    </div>
-                    <div class="blog-news-info-1 row align-items-center pb-3">
-                        <div class=" col">
-                            <img src="/src/assets/img/kids.jpg"  alt="" class="">
-                        </div>
-                        <div class="col">
-                            <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>CHECKMATING TEENAGE PREGNANCY</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</small></p>
-                        </div>
-                    </div>
-                    <div class="blog-news-info-1 row align-items-center pb-3">
-                        <div class=" col">
-                            <img src="/src/assets/img/kids-holding-notebooks-700px.jpg"  alt="" class="">
-                        </div>
-                        <div class="col">
-                            <p class="mb-2"><small class="mb-2" >Author: Oyeniran Jul 23, 2022</small></p>
-                            <h2>CHECKMATING TEENAGE PREGNANCY</h2>
-                            <p><small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, molestias.</small></p>
-                        </div>
-                    </div>                                                                                         
-                </div>         
-                <div class="col-md-4">
-                    <div class="aside-header">
-                        <h3 class="fw-bold fs-2 mb-3">Features</h3>
-                    </div>
-                    <div class="aside-component">
-                        <div class="aside-head">
-                            <img src="/src/assets/img/bluvard-trustee.webp" alt="">
-                        </div>
-                        <div class="aside-body my-3 w-75">
-                            <h4 class="fs-6 fw-bold">Bluvard Meets with the President of UK</h4>
-                            <p><small>Dec 20, 2022</small> </p>
-                        </div>
-                        <div class="aside-head">
-                            <img src="/src/assets/img/pretty-lady.jpg" alt="">
-                        </div>
-                        <div class="aside-body my-3 w-75">
-                            <h4 class="fs-6 fw-bold">Bluvard Meets with the President of UK</h4>
-                            <p><small>Dec 20, 2022</small> </p>
-                        </div>                     
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
+        <!-- header -->
+        <headerComponent
+            :header-pic='headerImg'
+            title="Bluvard News"
+            description="Stay Abreast News and information about Bluvard, you never know, Something might interest you." />
+        <!-- NEWS SECTION -->
 
-    </section>    
+        <!-- NEWSLETTER -->
+        <newsletterComponent />
+    </section>
 </template>
+<script >
+const posts = [
+    {
+        title: 'Boost your conversion rate',
+        href: '#',
+        category: { name: 'Article', href: '#' },
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        imageUrl:
+            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        readingTime: '6 min',
+        author: {
+            name: 'Roel Aufderehar',
+            href: '#',
+            imageUrl:
+                'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+    },
+    {
+        title: 'How to use search engine optimization to drive sales',
+        href: '#',
+        category: { name: 'Video', href: '#' },
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+        date: 'Mar 10, 2020',
+        datetime: '2020-03-10',
+        imageUrl:
+            'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        readingTime: '4 min',
+        author: {
+            name: 'Brenna Goyette',
+            href: '#',
+            imageUrl:
+                'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+    },
+    {
+        title: 'Improve your customer experience',
+        href: '#',
+        category: { name: 'Case Study', href: '#' },
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+        date: 'Feb 12, 2020',
+        datetime: '2020-02-12',
+        imageUrl:
+            'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        readingTime: '11 min',
+        author: {
+            name: 'Daniela Metz',
+            href: '#',
+            imageUrl:
+                'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+    },
+]
+import newsletterComponent from "../components/newsletter-component.vue";
+import headerComponent from "../components/page-header.vue";
+import headerImg from "../assets/img/pexels-lagos-food-bank-initiative-9968379.jpg";
+export default {
+    components: { newsletterComponent, headerComponent },
+    data(){
+        return{
+            
+        }
+    },
+    setup() {
+        return {
+            posts,
+            headerImg,
+        }
+    }
+}
+</script>
+<style>
 
+</style>
