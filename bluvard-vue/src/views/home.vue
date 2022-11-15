@@ -5,17 +5,16 @@
     <div>
       <!-- Hero card -->
       <div class="relative">
-        <!-- <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" /> -->
-        <div class=" mx-auto">
-          <div class="relative shadow-xl  sm:overflow-hidden">
+        <!-- <div class="relative inset-x-0 bottom-0 h-1/2 bg-gray-100" /> -->
+        <div class="mx-auto">
+          <div class="relative shadow-xl sm:overflow-hidden h-full">
             <div class="absolute inset-0">
-              <img class="h-full w-full object-cover" src="../assets/img/pexels-dazzle-jam-1029783.jpg"
-                alt="People working on laptops" />
-              <div class="absolute inset-0 bg-indigo-700 mix-blend-multiply" />
+              <img class="h-full w-full object-cover" src="../assets/img/pexels-dazzle-jam-1029783.jpg"/>
+              <div class="absolute inset-0 bg-indigo-300 mix-blend-multiply" />
             </div>
-            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 absolute md:inset-0 md:buttom-0">
               <h1 class="text-center text-4xl sm:text-5xl lg:text-6xl">
-                <span class="block text-white leading-tight sm:leading-6">Bridging Educational Barriers,</span>
+                <span class="block text-white leading-tight sm:leading-6 text-50">Bridging Educational Barriers,</span>
                 <span class="block text-indigo-200 leading-tight sm:leading-normal">Inspiring Hope</span>
               </h1>
               <p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">Anim aute id magna
@@ -31,7 +30,7 @@
                     Learn More </a>
                 </div>
               </div>
-            </div>
+            </div>              
           </div>
         </div>
       </div>
