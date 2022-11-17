@@ -2,7 +2,7 @@
         <header class="relative bg-red-800 sm:pb-32 h-96 ">
             <div class="sm:container mx-auto md:px-20 px-5">
                 <div class="absolute inset-0">
-                    <img class="w-full h-full object-cover"
+                    <img class="w-full h-full object-cover object-center"
                         :src="headerPic"
                         alt="" />
                     <div class="absolute inset-0 bg-gradient-to-l to-blue-800 from-indigo-200 mix-blend-multiply" aria-hidden="true" />

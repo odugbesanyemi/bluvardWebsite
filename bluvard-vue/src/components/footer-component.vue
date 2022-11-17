@@ -356,7 +356,7 @@
     </div>
 
     <div class="mt-12 border-t border-gray-100 pt-6">
-      <div class="text-center sm:flex sm:justify-between sm:text-left">
+      <div class="text-center sm:flex sm:justify-between sm:text-left sm:flex-row">
         <p class="text-sm text-gray-500">
           <span class="block sm:inline">All rights reserved.</span>
 
@@ -376,7 +376,6 @@
             Privacy Policy
           </a>
         </p>
-
         <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
           &copy; 2022 Company Name
         </p>
