@@ -46,9 +46,8 @@
           <div class="pt-12 sm:pt-16 lg:pt-20">
             <h2 class="text-5xl text-gray-900 tracking-tight">We're empowering out of school youths on </h2>
             <div class="mt-6 text-gray-500 space-y-6">
-              <p class="text-lg">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
-              <p class="text-base leading-7">Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-              <p class="text-base leading-7">Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
+              <p class="text-lg text-md">If the prevalent school curriculums are not sufficient to prepare young people for the future, how then can we transform education beyond the confines of the classrooms?</p>
+              <p class="text-base text-md leading-7">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality, and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
             </div>
           </div>
   
@@ -61,7 +60,7 @@
               </div>
             </dl>
             <div class="mt-10">
-              <a href="#" class="text-base font-medium text-indigo-600"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </a>
+              <router-link to="/about" class="text-base font-medium text-indigo-600"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </router-link>
             </div>
           </div>
         </div>
@@ -72,8 +71,8 @@
   <script>
   const stats = [
     { label: 'Founded', value: '2021' },
-    { label: 'Employees', value: '5' },
-    { label: 'Beta Users', value: '521' },
+    { label: 'Volunteers', value: '5' },
+    { label: 'Sponsors', value: '521' },
     { label: 'Raised', value: '$25M' },
   ]
   

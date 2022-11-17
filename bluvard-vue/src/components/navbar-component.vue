@@ -24,7 +24,7 @@
               </svg>
             </button>
           </div>
-          <nav class="hidden sm:flex space-x-10 ">
+          <nav class="hidden sm:flex space-x-10 items-center">
             <router-link to="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Home</router-link>
             <router-link to="/about" class="text-base font-medium text-gray-500 hover:text-gray-900"> About
             </router-link>
@@ -34,11 +34,7 @@
                 class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 aria-expanded="false">
                 <span>Our Solutions</span>
-                <!--
-                Heroicon name: solid/chevron-down
 
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-              -->
                 <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
@@ -50,57 +46,28 @@
                 class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                    <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                      <div
-                        class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
-                        <!-- Heroicon name: outline/inbox -->
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                        </svg>
-                      </div>
+                    <router-link to="/projects/Digital-Rural" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">Digital Rural</p>
-                        <p class="mt-1 text-sm text-gray-500">Get a better understanding of where your traffic is coming
-                          from.</p>
+                        <p class="mt-1 text-sm text-gray-500">Equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields</p>
                       </div>
-                    </a>
+                    </router-link>
 
-                    <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                      <div
-                        class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
-                        <!-- Heroicon name: outline/annotation -->
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-                        </svg>
-                      </div>
+                    <router-link to="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">Centre for Education(Cells)</p>
-                        <p class="mt-1 text-sm text-gray-500">Speak directly to your customers in a more meaningful way.
-                        </p>
+                        <p class="mt-1 text-sm text-gray-500">At Bluvard, we establish local innovation hubs in rural or underserved communities across Nigeria. These CELLS serve as points of convergence for young people can collaborate, innovate and build together.</p>
                       </div>
-                    </a>
+                    </router-link>
 
-                    <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                      <div
-                        class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
-                        <!-- Heroicon name: outline/chat-alt-2 -->
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                        </svg>
-                      </div>
+                    <router-link to="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">Rural Heroes</p>
-                        <p class="mt-1 text-sm text-gray-500">Your customers&#039; data will be safe and secure.</p>
+                        <p class="mt-1 text-sm text-gray-500">Every month, we bring the spotlight to one young person in a rural community using their skill/ talent to impact the lives of others in their community.</p>
                       </div>
-                    </a>
+                    </router-link>
 
-                    <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                    <router-link to="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                       <div
                         class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
                         <!-- Heroicon name: outline/question-mark-circle -->
@@ -111,11 +78,11 @@
                         </svg>
                       </div>
                       <div class="ml-4">
-                        <p class="text-base font-medium text-gray-900">Digital Inclusion Hub</p>
-                        <p class="mt-1 text-sm text-gray-500">Connect with third-party tools that you&#039;re already
+                        <p class="text-base font-medium text-gray-900">More</p>
+                        <p class="mt-1 text-sm text-gray-500">Want to know learn programs that we are planning on birthing next?
                           using.</p>
                       </div>
-                    </a>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -128,7 +95,7 @@
             </router-link>
             <!-- <router-link to="/sponsor" class="text-base font-medium text-gray-500 hover:text-gray-900">  </router-link> -->
           </nav>
-          <div class="hidden sm:flex items-center justify-end md:flex-1 lg:w-0">
+          <div class="hidden sm:flex items-center justify-end md:flex-1 lg:w-0 items-center">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">

@@ -9,13 +9,11 @@ import router from "./router";
 import "./assets/main.css";
 import "../dist/main.css";
 import "@headlessui/vue";
-
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue'; 
-  // Import Swiper styles
-  import 'swiper/css';
+// import { Swiper, SwiperSlide } from 'swiper/vue'; 
+// Import Swiper styles
+// import 'swiper/css';
 
 const app = createApp(App);
 app.use(router);
-
+// app.use(Unicon)
 app.mount("#app");

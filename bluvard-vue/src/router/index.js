@@ -4,7 +4,7 @@ import about from "../views/about.vue"
 import blog from "../views/blog.vue"
 import contact from "../views/contact.vue"
 import volunteer from "../views/volunteer.vue"
-
+import projectDigitalRural from '../views/project-digital-rural.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -32,6 +32,11 @@ const router = createRouter({
       path: "/volunteer",
       name: "volunteer",
       component: volunteer,
+    },
+    {
+      path: "/projects/Digital-Rural",
+      name: "digital-Rural",
+      component: projectDigitalRural,
     },
 
   ],
