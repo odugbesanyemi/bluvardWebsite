@@ -1,28 +1,28 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="bg-white shadow">
+  <div class="sticky top-0">
     <header>
-      <div class="relative bg-white">
+      <div class="relative">
         <!-- pc Navbar -->
         <div
-          class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+          class="flex justify-between items-center max-w-7xl mx-auto px-4  sm:px-6 md:justify-start md:space-x-10 lg:px-8">
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
-              <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_svg_logo.svg" alt="">
+              <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_white_logo.svg" alt="">
             </router-link>
           </div>
           <nav class="hidden sm:flex space-x-10 items-center">
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button type="button"
-                class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                class="text-blue-500 group rounded-md inline-flex items-center text-base font-medium hover:text-blue-900 focus: py-5"
                 aria-expanded="false">
                 <router-link to="/about"
-                  class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  About Us</router-link>
+                  class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  About us</router-link>
                 <svg @click="Links.About.menuOpen = !Links.About.menuOpen"
-                  class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500 text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -32,7 +32,7 @@
               <div :class="{ hidden: Links.About.menuOpen }"
                 class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                  <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                  <div class="relative grid gap-6 px-5 bg-white py-6 sm:gap-8 sm:p-8">
                     <router-link v-for="item in Links.About.links" :to="item.to"
                       class="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                       <p class="text-base font-medium text-gray-900">
@@ -46,18 +46,18 @@
                 </div>
               </div>
             </div>
-            <router-link to="/programmes" class="text-base font-medium text-gray-500 hover:text-gray-900"> What we do
+            <router-link to="/what-we-do" class="font-medium text-white hover:text-opacity-50 text-xl py-5"> what we do
             </router-link>
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button type="button"
-                class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                class="text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900"
                 aria-expanded="false">
                 <router-link to="/getinvolved"
-                  class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50  py-5">
                   Get Involved</router-link>
                 <svg @click="Links.getInvolved.menuOpen = !Links.getInvolved.menuOpen"
-                  class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                  class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -82,11 +82,11 @@
               </div>
             </div>
 
-            <router-link to="/contact" class="text-base font-medium text-gray-500 hover:text-gray-900"> Contact
+            <router-link to="/contact" class="text-xl font-medium text-white hover:text-opacity-50 py-5"> Contact
             </router-link>
             <!-- <router-link to="/sponsor" class="text-base font-medium text-gray-500 hover:text-gray-900">  </router-link> -->
           </nav>
-          <div class="hidden sm:flex items-center justify-end md:flex-1 lg:w-0 items-center">
+          <div class="hidden sm:flex items-center justify-end md:flex-1 lg:w-0">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
@@ -96,7 +96,7 @@
         <!-- mobile navbar -->
         <div :class="{ hidden: menuOpen }"
           class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between mb-8">
                 <div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="-mr-2">
                   <button @click="menuOpen = !menuOpen" type="button"
-                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    class=" rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span class="sr-only">Close menu</span>
                     <!-- Heroicon name: outline/x -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -253,6 +253,8 @@ export default {
   }
 }
 </script>
-<style lang="">
-  
+<style>
+.nav a {
+  color: red !important;
+}
 </style>

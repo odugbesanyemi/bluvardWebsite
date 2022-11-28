@@ -12,10 +12,10 @@
               <img class="h-full w-full object-cover" src="../assets/img/pexels-dazzle-jam-1029783.jpg"/>
               <div class="absolute inset-0 bg-indigo-300 mix-blend-multiply" />
             </div>
-            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 absolute md:inset-0 md:buttom-0">
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8  md:inset-0 md:buttom-0">
               <h1 class="text-center text-4xl sm:text-5xl lg:text-6xl">
                 <span class="block text-white leading-tight sm:leading-6 text-50">Bridging Educational Barriers,</span>
-                <span class="block text-blue-200 leading-tight sm:leading-normal text-6xl">Inspiring Hope</span>
+                <span class="block text-blue-200 leading-tight sm:leading-normal md:text-9xl sm:text-5xl">Inspiring Hope</span>
               </h1>
               <p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">Anim aute id magna
                 aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
@@ -73,7 +73,7 @@ export default {
 </script>
 <style scoped>
   .headBg{
-    min-height: calc(100vh - 90px);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

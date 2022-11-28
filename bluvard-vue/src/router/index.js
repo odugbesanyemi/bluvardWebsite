@@ -7,8 +7,9 @@ import volunteer from "../views/volunteer.vue"
 import pageNotFound from "../views/page-not-found.vue"
 import projectDigitalRural from '../views/project-digital-rural.vue'
 import ourTeam from "../views/about-team.vue"
-import getInvolved from "../views/getinvolved.vue"
+import getInvolved from "../views/get-involved.vue"
 import donatePage from "../views/donate.vue"
+import Programmes from '../views/what-we-do.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,7 +64,11 @@ const router = createRouter({
       name: "donate",
       component: donatePage
     },
-    
+    {
+      path:"/what-we-do",
+      name: "What-we-do",
+      component: Programmes,
+    },
   ],
 });
 

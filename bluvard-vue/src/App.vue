@@ -12,9 +12,9 @@ export default {
 
 <template>
   <header>
-    <navbar />  
+    <navbar class="absolute top-0 z-10 w-full shadow "/>  
   </header>
-  <RouterView />
+  <RouterView/>
   <lsidebar />
   <myFooter />
 </template>
