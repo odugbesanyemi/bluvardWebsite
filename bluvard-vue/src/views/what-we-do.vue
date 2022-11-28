@@ -104,25 +104,25 @@ export default {
         {
           img: "",
           title: "Project Digital Rural",
-          description: "",
+          description: "Equipping out-of-school/unemployed youths in rural communities across Nigeria with in-depth digital skills, and mentorship sufficient to launch a career in different digital fields",
           link: "#",
         },
         {
           img: "",
           title: "Centre for Education(CELLS)",
-          description: "",
+          description: "At Bluvard, we establish local innovation hubs in rural or underserved communities across Nigeria. These CELLS serve as points of ....",
           link: "#",
         },
         {
           img: "",
           title: "Rural Heores",
-          description: "",
+          description: "Every month, we bring the spotlight to one young person in a rural community using their skill/ talent to impact the lives of others in their community.",
           link: "#",
         },
         {
           img: "",
           title: "Digital Inclusion Hub",
-          description: "",
+          description: "Our digital Hub of inclusion is a place designed to help youth learn and grow with access to PC's, library for learning various demanding tech skills and also access to Mentorship and training for digital skills",
           link: "#",
         },
       ]

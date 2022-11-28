@@ -1,14 +1,13 @@
 <template>
-    <pageHeader :headerPic="headerImg" title="About Us" description="Hello world"></pageHeader>
-    <div class="mx-auto py-6 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-        <section class="aboutUs">
+    <pageHeader :headerPic="headerImg" ></pageHeader>
+    <div class="mx-auto py-6 px-4  sm:px-6 lg:px-8 lg:py-24">
+        <section class="aboutUs max-w-6xl mx-auto">
             <div class="about-header pb-md-5">
                 <h3 class="text-secondary pb-4">FOUNDER'S VISION</h3>
-                <h1 class="">To empower, uplift and educate 1 million children in slum communities, in 5 years, using
-                    chess as a focal point.</h1>
+                <h1 class="">To empower, uplift and educate out of school and young individuals teaching them neccessary digital skill</h1>
             </div>
-            <div class="about-history  flex md:flex-row py-5 gap-10 flex-col">
-                <div class="text-xl">
+            <div class="about-history flex md:flex-row py-5 gap-10 flex-col">
+                <div class="leading-normal text-gray-600 w-3/4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deserunt nesciunt omnis,
                         sapiente inventore natus ipsam obcaecati quod, libero vel quos, explicabo quae id nihil?
                         Doloribus sequi ducimus eum explicabo.</p>
@@ -21,17 +20,17 @@
                         distinctio iure. Debitis dolorem nihil cum fugiat nesciunt similique, reprehenderit aut
                         asperiores perspiciatis fuga, fugit rem, sunt minus veniam doloremque sed!</p>
                 </div>
-                <div class="">
+                <div class="w-1/4">
                     <img class=" rounded" src="../assets/img/pretty-lady.jpg" alt="">
                 </div>
             </div>
         </section>
-        <section class="bg-light">
+        <section class="bg-light ">
             <div class="">
                 <div class="impact pb-5">
                     <h2 class="pt-10 text-5xl mb-10">Our Impact</h2>
                     <div class="flex md:flex-row flex-col gap-4">
-                        <div class="text-xl basis-3/4">
+                        <div class="text-xl text-gray-500 basis-3/4">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit excepturi
                                 quos impedit cumque nobis a rerum, earum enim eligendiLorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Aspernatur consequuntur vel veniam, repudiandae itaque
@@ -43,7 +42,7 @@
                         </div>
                     </div>
                     <div class="flex md:flex-row flex-col mt-4 gap-4">
-                        <div class="text-xl basis-3/4">
+                        <div class="text-xl text-gray-500 basis-3/4">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit excepturi
                                 quos impedit cumque nobis a rerum, earum enim eligendi. Lorem ipsum dolor sit amet,
                                 consectetur adipisicing elit. Aspernatur consequuntur vel veniam, repudiandae itaque

@@ -201,14 +201,14 @@ export default {
           menuOpen: true,
           links: [
             {
-              title: "WHO WE ARE",
+              title: "Who we are",
               description: "Learn more about Bluvard Leadership Initiative",
               to: "/about"
             },
             {
               title: "Our History",
               description: "How it all started",
-              to: ""
+              to: "/about/history"
             },
             {
               title: "Team",
@@ -219,7 +219,7 @@ export default {
             {
               title: "Media & Press",
               description: "News about how we are changing the world",
-              to: ""
+              to: "/about/media-press"
             },
           ],
         },

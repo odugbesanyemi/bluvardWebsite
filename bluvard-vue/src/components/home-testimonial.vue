@@ -1,21 +1,12 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
 <section>
-  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div
-      class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
-    >
-      <div class="mb-8 sm:break-inside-avoid">
-        <h2 class="my-4 text-5xl sm:text-7xl">What People are saying</h2>
+  <div class="mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:px-8 ">
+    <h2 class=" text-5xl text-center mb-9">What People are saying</h2>
+    <div   class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+      <div class="mb-8 sm:break-inside-avoid " v-for="item in userComment">
         <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            minima dicta amet, molestiae aliquam incidunt suscipit recusandae
-            labore ratione doloremque, architecto et illo minus quo tenetur
-            ducimus, voluptatibus repellendus fuga aperiam vel ab! Ipsam
-            corrupti blanditiis dolorum! Officia assumenda rem nam, eveniet enim
-            ad inventore laudantium est illum voluptatem quis.
-          </p>
+          <p class="leading-relaxed text-gray-700">{{item.comment}}</p>
         </blockquote>
 
         <div class="mt-4 flex items-center gap-4">
@@ -26,122 +17,8 @@
           />
 
           <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-8 sm:break-inside-avoid">
-        <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vel
-            quo deserunt quos expedita minima incidunt sed tempora, a architecto
-            consectetur reprehenderit, in repellat voluptatum.
-          </p>
-        </blockquote>
-
-        <div class="mt-4 flex items-center gap-4">
-          <img
-            alt="Woman"
-            src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-            class="h-12 w-12 rounded-full object-cover"
-          />
-
-          <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-8 sm:break-inside-avoid">
-        <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            beatae incidunt perferendis soluta facilis voluptas dicta
-            repudiandae quasi asperiores libero, exercitationem molestiae autem
-            sapiente dolore nulla non consequatur. Eaque, dolores.
-          </p>
-        </blockquote>
-
-        <div class="mt-4 flex items-center gap-4">
-          <img
-            alt="Woman"
-            src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-            class="h-12 w-12 rounded-full object-cover"
-          />
-
-          <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-8 sm:break-inside-avoid">
-        <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            doloribus eius aut unde, dolores accusantium!
-          </p>
-        </blockquote>
-
-        <div class="mt-4 flex items-center gap-4">
-          <img
-            alt="Woman"
-            src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-            class="h-12 w-12 rounded-full object-cover"
-          />
-
-          <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-8 sm:break-inside-avoid">
-        <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi a
-            voluptatum quidem nulla quisquam natus velit provident earum esse,
-            odio numquam labore recusandae similique sunt.
-          </p>
-        </blockquote>
-
-        <div class="mt-4 flex items-center gap-4">
-          <img
-            alt="Woman"
-            src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-            class="h-12 w-12 rounded-full object-cover"
-          />
-
-          <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mb-8 sm:break-inside-avoid">
-        <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-          <p class="leading-relaxed text-gray-700">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
-            necessitatibus, repudiandae qui dolor minima.
-          </p>
-        </blockquote>
-
-        <div class="mt-4 flex items-center gap-4">
-          <img
-            alt="Woman"
-            src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-            class="h-12 w-12 rounded-full object-cover"
-          />
-
-          <div class="text-sm">
-            <p class="font-medium">Gladis Lennon</p>
-            <p class="mt-1">Head of SEO</p>
+            <p class="font-medium">{{item.name}}</p>
+            <p class="mt-1">{{item.position}}</p>
           </div>
         </div>
       </div>
@@ -150,7 +27,46 @@
 </section>
 
   </template>
-  <style>
+<style>
 </style>
 <script>
+
+  export default{
+    data(){
+      return{
+        userComment:[
+          {
+            pic:"",
+            comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime minima dicta amet, molestiae aliquam incidunt suscipit recusandae labore ratione doloremque, architecto et illo minus quo tenetur",
+            name:"Odugbesan yemi",
+            position:"COO Tecxha IT Solutions"
+          },
+          {
+            pic: "",
+            comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime minima dicta amet, molestiae aliquam incidunt suscipit recusandae labore ratione doloremque, architecto et illo minus quo tenetur",
+            name: "Odugbesan yemi",
+            position: "COO Tecxha IT Solutions"
+          },
+          {
+            pic: "",
+            comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime minima dicta amet, molestiae aliquam incidunt suscipit recusandae labore ratione doloremque, architecto et illo minus quo tenetur",
+            name: "Odugbesan yemi",
+            position: "COO Tecxha IT Solutions"
+          },
+          {
+            pic: "",
+            comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime minima dicta amet, molestiae aliquam incidunt suscipit recusandae labore ratione doloremque, architecto et illo minus quo tenetur",
+            name: "Odugbesan yemi",
+            position: "COO Tecxha IT Solutions"
+          },
+          {
+            pic: "",
+            comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime minima dicta amet, molestiae aliquam incidunt suscipit recusandae labore ratione doloremque, architecto et illo minus quo tenetur",
+            name: "Odugbesan yemi",
+            position: "COO Tecxha IT Solutions"
+          },
+        ]
+      }
+    },
+  }
 </script>  

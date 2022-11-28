@@ -1,10 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-    <div class="bg-white pt-16 pb-20 px-4 sm:px-8 lg:pt-24 lg:pb-28 lg:px-8">
-      <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
+    <div class="pt-16 pb-20 px-4 sm:px-8 lg:pt-24 lg:pb-28 lg:px-8  mx-auto">
+      <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-6xl">
         <div>
           <h2 class="text-6xl tracking-tight text-gray-900 ">Recent publications</h2>
-          <p class="mt-3 text-xl text-gray-500 sm:mt-4">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+          <!-- <p class="mt-3 text-xl text-gray-500 sm:mt-4">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p> -->
         </div>
         <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
           <div v-for="post in posts" :key="post.title">
