@@ -1,1 +1,18 @@
-class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+<template>
+    <pageHeader :headerPic="headerImg"></pageHeader>
+
+</template>
+<script>
+import pageHeader from '../components/page-header.vue'
+    export default{
+    components: {
+        pageHeader,
+    },
+        data(){
+            return{
+                headerImg,
+            }
+        },
+    }
+</script>
+<style></style>

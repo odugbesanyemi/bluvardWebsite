@@ -2,10 +2,10 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="sticky top-0">
     <header>
-      <div class="relative">
+      <div class="relative ">
         <!-- pc Navbar -->
         <div
-          class="flex justify-between items-center max-w-7xl mx-auto px-4  sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+          class="flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 md:justify-start md:space-x-10 lg:px-8 py-3">
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
@@ -86,7 +86,7 @@
             </router-link>
             <!-- <router-link to="/sponsor" class="text-base font-medium text-gray-500 hover:text-gray-900">  </router-link> -->
           </nav>
-          <div class="hidden sm:flex items-center justify-end md:flex-1 lg:w-0">
+          <div class="hidden sm:flex items-center md:flex-1 lg:w-0">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
@@ -94,8 +94,7 @@
           </div>
         </div>
         <!-- mobile navbar -->
-        <div :class="{ hidden: menuOpen }"
-          class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <div :class="{hidden:!menuOpen}" class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
           <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between mb-8">
@@ -170,7 +169,6 @@
                 </nav>
               </div>
             </div>
-
             <div class="py-6 px-5">
               <div class="grid grid-cols-2 gap-4">
                 <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Events </a>
@@ -190,10 +188,11 @@
       </div>
     </header>
   </div>
-
 </template>
 <script>
+// import 
 export default {
+  components:{},
   data() {
     return {
       Links: {
