@@ -1,24 +1,24 @@
 <template >
   <pageHeader :headerPic="pageHeaderPic" />
-  <div class="mx-auto py-6 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+  <div class="py-6 px-4  sm:px-6 lg:px-8 lg:py-24">
     <!-- Our team section -->
     <div class="bg-white">
-      <div class="">
-        <div class="">
-          <div class="max-w-6xl mx-auto">
-            <div class="py-20">
-              <p class="mb-4">About Us</p>
-              <h2 class="text-6xl">The Team</h2>
-              <hr class="my-5">
-              <p class="max-w-7xl text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus
-                distinctio possimus
-                necessitatibus dolorem reiciendis? Laboriosam, adipisci maiores ducimus accusantium dignissimos,
-                libero cum, ad
-                culpa sapiente aliquam aperiam.
-              </p>
-            </div>
+      <div class="mx-auto">
+        <div class="max-w-6xl mx-auto">
+          <div class="py-20">
+            <p class="mb-4">About Us</p>
+            <h2 class="text-6xl">The Team</h2>
+            <hr class="my-5">
+            <p class="max-w-7xl text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus
+              distinctio possimus
+              necessitatibus dolorem reiciendis? Laboriosam, adipisci maiores ducimus accusantium dignissimos,
+              libero cum, ad
+              culpa sapiente aliquam aperiam.
+            </p>
           </div>
+        </div>
+        <div class="max-w-6xl mx-auto">
           <ul role="list"
             class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             <li v-for="person in people" :key="person.name">
