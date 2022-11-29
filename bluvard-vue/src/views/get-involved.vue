@@ -3,9 +3,9 @@
         <pageHeader :headerPic="headerImg" ></pageHeader>
         <div class="px-4 sm:px-6 lg:px-8 text-center py-24 bg-blue-50">
             <div class="max-w-2xl mx-auto">
-                <h2 class="text-5xl py-3 text-blue-900">Get Involved</h2>
-                <p class="mb-8 text-blue-500">Join us in our global change Movement</p>
-                <p class="text-blue-900 opacity-70 mt-4 text-xl leading-tight">It all starts with your choice to act instead of looking away. You meet a need and that starts a chain reaction. Families break free of poverty, begin to work toward a better future, and become open to spiritual renewal. Your action has the power to transform a life, a family, an entire village.</p>
+                <h2 class="text-5xl py-3 text-sky-600">Get Involved</h2>
+                <p class="mb-8 text-sky-600">Join us in our global change Movement</p>
+                <p class="text-sky-600 opacity-70 mt-4 text-xl leading-tight">It all starts with your choice to act instead of looking away. You meet a need and that starts a chain reaction. Families break free of poverty, begin to work toward a better future, and become open to spiritual renewal. Your action has the power to transform a life, a family, an entire village.</p>
             </div>
         </div>
         <div class="contentGrid py-20">

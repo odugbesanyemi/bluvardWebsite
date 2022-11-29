@@ -7,7 +7,7 @@
         <div class="max-w-6xl mx-auto">
           <div class="py-20">
             <p class="mb-4">About Us</p>
-            <h2 class="text-6xl">The Team</h2>
+            <h2 class="text-6xl text-sky-600">The Team</h2>
             <hr class="my-5">
             <p class="max-w-7xl text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus

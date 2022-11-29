@@ -4,7 +4,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="py-20">
                 <p class="mb-4">About Us</p>
-                <h2 class="text-6xl">Media & Press</h2>
+                <h2 class="text-6xl text-sky-600">Media & Press</h2>
                 <hr class="my-5">
                 <p class="max-w-7xl text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus
@@ -18,7 +18,7 @@
         <div class="py-10 bg-slate-100">
             <div class="">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl">Press Releases</h2>
+                    <h2 class="text-4xl text-sky-500">Press Releases</h2>
                     <div class="press-content py-10">
                         <div class="grid grid-cols-2 gap-5 md:gap-10">
                             <div class="press-item" v-for="item in pressItems">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="max-w-6xl mx-auto my-10 ">
-                    <h2 class="text-4xl">Bluvard in the News</h2>
+                    <h2 class="text-4xl text-sky-500">Bluvard in the News</h2>
                     <div class="press-content py-10">
                         <div class="grid grid-cols-2 gap-5 md:gap-10">
                             <div class="news-item" v-for="item in newsItems">

@@ -5,7 +5,7 @@
     </div>
     <div class="bg-white text-gray-900">
       <div class="donate-text max-w-5xl mx-auto text-center py-10 md:py-36 px-4 md:px-20">
-        <h2 class="text-5xl">What We Do</h2>
+        <h2 class="text-5xl text-sky-600">What We Do</h2>
         <!-- <h3 class="text-4xl text-slate-500 font-extrabold my-4">Bridging the Education Divide</h3> -->
         <p class=" py-6 md:px-2 text-slate-500 md:text-center my-6 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptate labore quidem placeat,
@@ -25,7 +25,7 @@
         class="inset-0 w-full h-full object-cover -z-0 absolute opacity-5">
       <div class="md:px-10 py-12 md:py-36 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto gap-4 px-4 items-center">
         <div class="left md:w-1/4 w-full md:px-20 md:text-justify z-10">
-          <h2 class="text-4xl my-4 ">How We Help</h2>
+          <h2 class="text-4xl my-4 text-sky-600">How We Help</h2>
           <p class="leading- md:leading-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias fuga
             explicabo porro officia veritatis aperiam eveniet consectetur similique, at incidunt necessitatibus quasi,
             optio
@@ -48,7 +48,7 @@
     <div class="bg-gray-100 relative">
       <!-- Our Programmes -->
       <div class="md:px-10 py-12 md:py-36  md:max-w-7xl mx-auto gap-4 px-4 ">
-        <h2 class="text-4xl md:text-6xl text-center">Our Programmes</h2>
+        <h2 class="text-4xl md:text-6xl text-center text-sky-600">Our Programmes</h2>
         <p class="mx-auto text-justify md:text-center my-4 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Officia error, corrupti odio qui necessitatibus dolorem eaque amet, libero magni numquam placeat dolore facere
           officiis molestiae sunt mollitia expedita dolor veritatis?</p>
