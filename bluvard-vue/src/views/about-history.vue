@@ -2,7 +2,7 @@
     <pageHeader :headerPic="headerImg"></pageHeader>
     <div class="history-content">
         <div class="max-w-6xl mx-auto">
-            <div class="py-20">
+            <div class="py-20 ">
                 <p class="mb-4">About Us</p>
                 <h2 class="text-6xl">History</h2>
                 <hr class="my-5">

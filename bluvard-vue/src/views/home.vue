@@ -51,11 +51,39 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </div>
 
     <!-- More main page content here... -->
     <homeAbout />
+    <!-- video presentation -->
+    <div class="bg-slate-800 relative">
+      <img src="../assets/img/projectdigitalrural04.jpg" alt="" class="img-bg inset-0 absolute w-full h-full object-cover z-10 bg-fixed opacity-50">
+      <div class="relative  z-10 backdrop-blur-xl py-20 ">
+        <div class="max-w-7xl flex mx-auto gap-5">
+
+          <iframe class="w-1/2" src="https://www.youtube.com/embed/tgbNymZ7vqY">></iframe>
+          <div class="p-10 w-1/2">
+            <div>
+              <h2 class="text-3xl text-white py-5">Mission</h2>
+              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, iste laudantium,
+                itaque consequatur nesciunt fugit dolore minima iusto aut porro eos suscipit, tenetur necessitatibus unde
+                maiores tempore sapiente quos possimus!</p>
+            </div>
+            <div>
+              <h2 class="text-3xl text-white py-5">Vision</h2>
+              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, iste laudantium,
+                itaque
+                consequatur nesciunt fugit dolore minima iusto aut porro eos suscipit, tenetur necessitatibus unde maiores
+                tempore
+                sapiente quos possimus!</p>
+            </div>
+          </div>          
+        </div>
+
+
+      </div>
+    </div>
+
     <!-- testimonial -->
     <homeTestimonial />
     <!-- News and Blog -->
