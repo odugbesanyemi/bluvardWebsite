@@ -23,6 +23,7 @@
     "oh-vue-icons": "^1.0.0-rc3",
     "popper.js": "^1.16.1",
     "swiper": "^8.4.4",
+    "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.44",
     "vue-agile": "^2.0.0",
     "vue-awesome": "^4.5.0",

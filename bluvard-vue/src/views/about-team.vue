@@ -4,11 +4,20 @@
     <!-- Our team section -->
     <div class="bg-white">
       <div class="">
-        <div class="space-y-12">
-          <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-            <h2 class="pt-10 text-5xl mb-10">Our Team</h2>
-            <p class="text-xl text-gray-500">Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum
-              dolor ultricies donec risus sodales. Tempus quis et.</p>
+        <div class="">
+          <div class="max-w-6xl mx-auto">
+            <div class="py-20">
+              <p class="mb-4">About Us</p>
+              <h2 class="text-6xl">The Team</h2>
+              <hr class="my-5">
+              <p class="max-w-7xl text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus
+                distinctio possimus
+                necessitatibus dolorem reiciendis? Laboriosam, adipisci maiores ducimus accusantium dignissimos,
+                libero cum, ad
+                culpa sapiente aliquam aperiam.
+              </p>
+            </div>
           </div>
           <ul role="list"
             class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
@@ -57,9 +66,9 @@
 import pageHeader from "../components/page-header.vue"
 import pageHeaderPic from "../assets/img/projectdigitalrural04.jpg"
 export default {
-  components:{
-        pageHeader,pageHeaderPic
-      },
+  components: {
+    pageHeader, pageHeaderPic
+  },
   data() {
     return {
       pageHeaderPic,
@@ -67,14 +76,14 @@ export default {
         {
           name: 'Esther Edward',
           role: 'Team Lead, Programms Cordinator',
-          imageUrl:'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          imageUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
           twitterUrl: '#',
           linkedinUrl: '#',
         },
         {
           name: 'Oluwafisayo',
           role: 'Communications Director',
-          imageUrl:'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+          imageUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
           twitterUrl: '#',
           linkedinUrl: '#',
         },
