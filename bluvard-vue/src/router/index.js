@@ -12,6 +12,7 @@ import donatePage from "../views/donate.vue"
 import Programmes from '../views/what-we-do.vue'
 import aboutMedia from "../views/about-media.vue"
 import aboutHistory from "../views/about-history.vue"
+import aboutPress from "../views/about-press.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -80,6 +81,12 @@ const router = createRouter({
       path:"/what-we-do",
       name: "What-we-do",
       component: Programmes,
+    },
+
+    {
+      path:"/aboutPress",
+      name: "about-press",
+      component: aboutPress,
     },
   ],
 });
