@@ -71,11 +71,7 @@
             </div>
             <div>
               <h2 class="text-3xl text-white py-5">Vision</h2>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, iste laudantium,
-                itaque
-                consequatur nesciunt fugit dolore minima iusto aut porro eos suscipit, tenetur necessitatibus unde maiores
-                tempore
-                sapiente quos possimus!</p>
+              <p class="text-white">Our vision is for an Africa where access to holistic education becomes the everyday reality of all children living in rural communities regardless of gender, tribe, or religion.</p>
             </div>
           </div>          
         </div>
