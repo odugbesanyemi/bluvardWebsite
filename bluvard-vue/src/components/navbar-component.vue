@@ -4,7 +4,7 @@
     <header>
       <div class="relative ">
         <!-- pc Navbar -->
-        <div class="flex max-w-lg mx-auto px-5 lg:container py-3 items-center">
+        <div class="flex max-w-lg mx-auto px-5 lg:container py-4 items-center w-full">
           <div class="flex justify-between lg:w-0 lg:flex-1">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>

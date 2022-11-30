@@ -6,13 +6,22 @@ import lsidebar from './components/left-sidebar.vue'
 export default {
   components: {
     navbar,myFooter,lsidebar
+  },
+  data(){
+    return{
+      showNavbar:true,
+      lastScrollPosition:0,
+    }
+  },
+  mounted(){
+    
   }
 }
 </script>
 
 <template>
   <header>
-    <navbar class="absolute top-0 z-10 w-full shadow "/>  
+    <navbar  class="top-0 z-10"/>  
   </header>
   <RouterView/>
   <lsidebar />

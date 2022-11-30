@@ -3977,6 +3977,10 @@ textarea.form-control.is-invalid{
   width: 10rem;
 }
 
+.w-1{
+  width: 0.25rem;
+}
+
 .min-w-0{
   min-width: 0px;
 }
