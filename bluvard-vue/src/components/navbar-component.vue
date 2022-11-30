@@ -4,7 +4,7 @@
     <header>
       <div class="relative ">
         <!-- pc Navbar -->
-        <div class="flex min-w-sm mx-auto px-5 lg:container py-3 items-center">
+        <div class="flex max-w-lg mx-auto px-5 lg:container py-3 items-center">
           <div class="flex justify-between lg:w-0 lg:flex-1">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
@@ -86,15 +86,15 @@
           <div class="max-lg:hidden lg:flex items-center">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
-              class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-              Volunteer </router-link>
+              class="py-3 text-xl font-medium rounded-full ml-6 shadow-sm bg-indigo-700 text-white hover:bg-indigo-500 sm:px-8">
+              VOLUNTEER </router-link>
           </div>
           <div class="toggleBtn lg:hidden ml-auto" @click="mobileNav.visible = !mobileNav.visible">
             <Bars3Icon class="h-10 w-10 text-white" />
           </div>
         </div>
         <!-- mobile navbar -->
-        <div :class="{hidden:!mobileNav.visible}"
+        <div :class="{ hidden: !mobileNav.visible }"
           class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
           <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
@@ -155,11 +155,11 @@
 import { ChevronDoubleRightIcon } from '@heroicons/vue/24/solid'
 import { Bars3Icon } from "@heroicons/vue/24/solid"
 export default {
-  components: {Bars3Icon,ChevronDoubleRightIcon },
+  components: { Bars3Icon, ChevronDoubleRightIcon },
   data() {
     return {
-      mobileNav:{
-        visible:false,
+      mobileNav: {
+        visible: false,
       },
       Links: {
         About: {
