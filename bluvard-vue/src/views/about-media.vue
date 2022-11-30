@@ -2,8 +2,8 @@
     <pageHeader :headerPic="headerImg"></pageHeader>
     <div class="media-content">
         <div class="max-w-6xl mx-auto">
-            <div class="py-20">
-                <p class="mb-4">About Us</p>
+            <div class="py-20 px-5">
+                <p class="mb-5">About Us</p>
                 <h2 class="text-6xl text-blue-900">Media & Press</h2>
                 <hr class="my-5">
                 <p class="max-w-7xl text-gray-400">
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="py-10 bg-slate-100">
-            <div class="">
+            <div class="px-5">
                 <div class="max-w-6xl mx-auto">
                     <h2 class="text-4xl text-blue-900">Press Releases</h2>
                     <div class="press-content py-10">
@@ -36,7 +36,7 @@
                     <div class="press-content py-10">
                         <div class="grid grid-cols-2 gap-5 md:gap-10">
                             <div class="news-item" v-for="item in newsItems">
-                                <p class="mb-4 pb-2 text-gray-400">{{ item.newsDate }}</p>
+                                <p class="mb-4 text-gray-400">{{ item.newsDate }}</p>
                                 <h4 class="mb-4 font-bold">{{ item.desc }}</h4>
                                 <p class="flex items-center gap-3 text-gray-500">Read Story
                                     <ChevronDoubleRightIcon class="h-4 w-4" />
