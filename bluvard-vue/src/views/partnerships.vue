@@ -46,7 +46,7 @@
             <p class="mt-10 text-4xl text-sky-800 font-bold">Request a Call or Email to Learn More</p>
             <p class="text-lg">We’d love to tell you more about partnering with World Concern to end extreme poverty!  Call us at  <router-link to=""><span class="text-sky-500">800-755-5022,</span> </router-link> </p>
             <p class="text-lg"> email us at <router-link to=""><span class="text-sky-500">info@worldconcern.org </span> </router-link>and we’ll be in touch.</p>
-            <button class="mt-10 bg-sky-800 p-5 text-white font-bold w-60 text-lg"> <router-link to=""></router-link>CONTACT US >> </button>
+            <button class="mt-10 bg-sky-800 p-5 text-white font-bold w-60 text-lg hover:bg-sky-600"> <router-link to=""></router-link>CONTACT US >> </button>
         </div>
     </div>
     
