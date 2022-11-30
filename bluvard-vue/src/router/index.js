@@ -13,7 +13,9 @@ import Programmes from '../views/what-we-do.vue'
 import aboutMedia from "../views/about-media.vue"
 import aboutHistory from "../views/about-history.vue"
 import aboutPress from "../views/about-press.vue"
-
+import partnershipPage from "../views/partnerships.vue"
+import internshipPage from "../views/internships.vue"
+import fundraisePage from "../views/fundraise.vue"
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -76,6 +78,21 @@ const router = createRouter({
       path:"/getinvolved/donate",
       name: "donate",
       component: donatePage
+    },
+        {
+      path:"/getinvolved/partners",
+      name: "partners",
+      component: partnershipPage
+    },
+    {
+      path:"/getinvolved/internship",
+      name: "interns",
+      component: internshipPage
+    },
+    {
+      path:"/getinvolved/fundraise",
+      name: "fundraise",
+      component: fundraisePage
     },
     {
       path:"/what-we-do",
