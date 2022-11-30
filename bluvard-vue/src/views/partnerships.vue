@@ -15,17 +15,37 @@
         </div>
     </div>
 
-    <div class="flex">
-        <div class="flex-1 w-64">
-            <div>
-                <h1>“If I'm looking for an organization to pursue global relief, World Concern is very high on my list. World Concern is in a position to be more nimble, and I think affect the areas that are really, truly in desperate need. There are other large, global relief organizations, but World Concern is very adept at going to the end of the road, and that's very important to me. As an investment person, I think I get the best value for my money in serving those people.”</h1>
-                   <p>MARK ANDERSON</p> 
-                   <p>Managing Principal, Tradewinds Capital Management</p> 
-
-            </div>
-
+    <div class="flex flex-row bg-slate-200 mt-10 relative">
+        <div class="bg-white mt-10 ml-20 mb-10 p-16 drop-shadow-lg z-0 z-50">
+            <div class="text-l">
+                <p>“If I'm looking for an organization to pursue global relief,</p>
+                <p>World Concern is very high on my list. World Concern is in</p>
+                <p>a position to be more nimble, and I think affect the areas</p>
+                <p>that are really, truly in desperate need. There are other</p>
+                <p>large, global relief organizations, but World Concern is very</p>
+                <p>adept at going to the end of the road, and that's very</p>
+                <p>important to me. As an investment person, I think I get the</p>
+                <p>best value for my money in serving those people.”</p>
+                <p class="mt-5 text-sky-600 font-bold text-2xl">MARK ANDERSON</p> 
+                <p class=" text-sky-600 font-bold text-l">Managing Principal, Tradewinds Capital Management</p>
+            </div> 
         </div>
-
+        <div class="bg-white mt-10 ml-20 mb-10 p-16 drop-shadow-lg inline-block mr-20">
+            <div class="text-l">
+                <p>“If I'm looking for an organization to pursue global relief,</p>
+                <p>World Concern is very high on my list. World Concern is in</p>
+                <p>a position to be more nimble, and I think affect the areas</p>
+                <p>that are really, truly in desperate need. There are other</p>
+                <p>large, global relief organizations, but World Concern is very</p>
+                <p>adept at going to the end of the road, and that's very</p>
+                <p>important to me. As an investment person, I think I get the</p>
+                <p>best value for my money in serving those people.”</p>
+                <p class="mt-5 text-sky-600 font-bold text-2xl">MARK ANDERSON</p> 
+                <p class=" text-sky-600 font-bold text-l">Managing Principal, Tradewinds Capital Management</p>
+            </div>
+            
+        </div>
+        
     </div>
 </template>
 <script >
