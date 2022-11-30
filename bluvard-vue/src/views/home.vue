@@ -61,7 +61,7 @@
       <div class="relative  z-10 backdrop-blur-xl py-20 ">
         <div class="max-w-7xl flex mx-auto gap-5">
 
-          <iframe class="w-1/2" src="https://www.youtube.com/embed/tgbNymZ7vqY">></iframe>
+          <iframe class="w-1/2" src="https://www.youtube.com/embed/tgbNymZ7vqY">``></iframe>
           <div class="p-10 w-1/2">
             <div>
               <h2 class="text-3xl text-white py-5">Mission</h2>
