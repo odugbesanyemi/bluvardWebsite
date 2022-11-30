@@ -21,10 +21,10 @@
                     <h2 class="text-4xl text-sky-500">Press Releases</h2>
                     <div class="press-content py-10">
                         <div class="grid grid-cols-2 gap-5 md:gap-10">
-                            <div class="press-item" v-for="item in pressItems">
-                                <p class="font-bold mb-4 text-red-400">{{ item.newsDate }}</p>
+                            <div class="press-item group" v-for="item in pressItems">
+                                <p class="font-bold pb-4 text-red-400">{{ item.newsDate }}</p>
                                 <h4 class="mb-4 font-bold">{{ item.desc }}</h4>
-                                <p class="flex items-center gap-3 text-gray-500">Read News
+                                <p class="flex items-center gap-3 text-gray-500 group-hover:text-black">Read News
                                     <ChevronDoubleRightIcon class="h-4 w-4" />
                                 </p>
                             </div>

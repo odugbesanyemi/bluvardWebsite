@@ -61,21 +61,15 @@
       <div class="relative  z-10 backdrop-blur-xl py-20 ">
         <div class="max-w-7xl flex mx-auto gap-5">
 
-          <iframe class="w-1/2" src="https://www.youtube.com/embed/tgbNymZ7vqY">></iframe>
+          <iframe class="w-1/2" src="https://www.youtube.com/embed/tgbNymZ7vqY">``></iframe>
           <div class="p-10 w-1/2">
             <div>
               <h2 class="text-3xl text-white py-5">Mission</h2>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, iste laudantium,
-                itaque consequatur nesciunt fugit dolore minima iusto aut porro eos suscipit, tenetur necessitatibus unde
-                maiores tempore sapiente quos possimus!</p>
+              <p class="text-white">To unearth potentials, inspire hope, and raise future generations of global leaders by creating forward-thinking, and inclusive educational programs for financially disadvantaged children and youths in rural communities across Nigeria.</p>
             </div>
             <div>
               <h2 class="text-3xl text-white py-5">Vision</h2>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, iste laudantium,
-                itaque
-                consequatur nesciunt fugit dolore minima iusto aut porro eos suscipit, tenetur necessitatibus unde maiores
-                tempore
-                sapiente quos possimus!</p>
+              <p class="text-white">Our vision is for an Africa where access to holistic education becomes the everyday reality of all children living in rural communities regardless of gender, tribe, or religion.</p>
             </div>
           </div>          
         </div>
