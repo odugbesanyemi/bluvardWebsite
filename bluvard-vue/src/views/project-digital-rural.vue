@@ -50,7 +50,7 @@
             <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
                 <!-- Content area -->
                 <div class="pt-12 sm:pt-16 lg:pt-20">
-                    <h2 class="text-4xl text-gray-900  sm:text-4xl">Bringing the next level Education to the Rurals</h2>
+                    <h2 class="text-4xl text-sky-600  sm:text-4xl">Bringing the next level Education to the Rurals</h2>
                     <div class="mt-6 text-gray-500 space-y-6">
                         <p class="text-lg">We live in a digital world, yet 1 in every 3 young persons in rural Nigeria
                             has never used a computer before, not for lack of interest but because of some of these
