@@ -83,7 +83,7 @@
     <!-- News and Blog -->
     <homeNews class="bg-red-50" />
     <!-- volunteerr -->
-    <!-- <homeVolunteer /> -->
+    <homeVolunteer />
     <!-- newsletter -->
     <homeNewsletter />
   </main>
@@ -93,11 +93,11 @@ import myCarousel from '../components/image-carousel.vue'
 import homeAbout from '../components/home-about.vue'
 import homeNews from '../components/home-publications.vue'
 import homeTestimonial from '../components/home-testimonial.vue'
-// import homeVolunteer from '../components/home-volunteer.vue'
+import homeVolunteer from '../components/home-volunteer.vue'
 import homeNewsletter from '../components/newsletter-component.vue'
 export default {
   components: {
-    myCarousel, homeAbout, homeNews, homeTestimonial, homeNewsletter
+    myCarousel, homeAbout, homeNews, homeTestimonial, homeNewsletter,homeVolunteer
   },
   data() {
     return {

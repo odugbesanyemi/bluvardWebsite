@@ -18,8 +18,8 @@
         <div class="mx-auto">
             <div class=" bg-white md:py-20 px-5">
                 <div class="max-w-6xl mx-auto  md:flex  gap-20">
-                    <div class="history-img h-full md:w-4/5 ">
-                        <img src="../assets/img/DSC_0732.JPG" alt="" class="rounded h-full w-full object-cover">
+                    <div class="history-img md:w-4/5 ">
+                        <img src="../assets/img/IMG_20211207_112142_184.jpg" alt="" class="rounded h-full w-full object-cover">
                     </div>
                     <div class="history-detail">
                         <div class="">
@@ -51,8 +51,8 @@
             </div>
             <div class="bg-gray-50 md:py-20">
                 <div class="py-20 px-5 max-w-6xl mx-auto md:flex gap-20">
-                    <div class="history-img h-full md:w-4/5 order-2">
-                        <img src="../assets/img/DSC_0732.JPG" alt="" class="rounded h-full w-full object-cover">
+                    <div class="history-img md:w-4/5 order-2">
+                        <img src="../assets/img/IMG-20211222-WA0020.jpg" alt="" class="rounded h-full w-full object-cover">
                     </div>
                     <div class="history-detail">
                         <div class="">
