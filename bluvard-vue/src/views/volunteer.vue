@@ -73,7 +73,7 @@
   </div>
 
 
-  <div class="bg-gray-900">
+  <div class="bg-gray-900 mt-20">
     <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -124,8 +124,65 @@
 
   
   <script>
-  import pageHeader from '../components/page-header.vue'
+
+    import pageHeader from '../components/page-header.vue'
     import headerImg from "../assets/img/pexels-roman.jpg";
+const people = [
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Leonard Krasner',
+    role: 'Senior Designer',
+    imageUrl:
+      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  // More people...
+]
 
 export default {
     components: {
@@ -136,7 +193,32 @@ export default {
             headerImg,
         }
     },
+
+    setup() {
+    return {
+      people,
+     
+    }
+  },
 }
+
+  
+
+
+
+//   import pageHeader from '../components/page-header.vue'
+//     import headerImg from "../assets/img/pexels-roman.jpg";
+
+// export default {
+//     components: {
+//         pageHeader,
+//     },
+//     data() {
+//         return {
+//             headerImg,
+//         }
+//     },
+// }
    
   </script>
 <!-- <script>
