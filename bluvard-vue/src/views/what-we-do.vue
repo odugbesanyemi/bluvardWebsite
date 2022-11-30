@@ -5,7 +5,7 @@
     </div>
     <div class="bg-white text-gray-900">
       <div class="donate-text max-w-5xl mx-auto text-center py-10 md:py-36 px-4 md:px-20">
-        <h2 class="text-5xl text-sky-600">What We Do</h2>
+        <h2 class="text-5xl text-blue-900">What We Do</h2>
         <!-- <h3 class="text-4xl text-slate-500 font-extrabold my-4">Bridging the Education Divide</h3> -->
         <p class=" py-6 md:px-2 text-slate-500 md:text-center my-6 text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptate labore quidem placeat,
@@ -25,8 +25,8 @@
         class="inset-0 w-full h-full object-cover -z-0 absolute opacity-5">
       <div class="md:px-10 py-12 md:py-36 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto gap-4 px-4 items-center">
         <div class="left md:w-1/4 w-full md:px-20 md:text-justify z-10">
-          <h2 class="text-4xl my-4 text-sky-600">How We Help</h2>
-          <p class="leading- md:leading-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias fuga
+          <h2 class="text-4xl my-4 text-blue-900">How We Help</h2>
+          <p class="leading- md:leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias fuga
             explicabo porro officia veritatis aperiam eveniet consectetur similique, at incidunt necessitatibus quasi,
             optio
           </p>
@@ -36,19 +36,18 @@
         <div class="right md:w-3/4 w-full relative z-10">
           <div class="grid md:grid-cols-2 gap-4 grid-cols-1 my-8 md:my-0 z-10 relative ">
             <div
-              class="flex flex-row bg-slate-100 rounded items-center w-full py-2 px-2 hover:bg-white hover:ring-white hover:ring-offset-4 group border border-slate-400 border-opacity-70"
+              class="text-center bg-slate-100 rounded items-center w-full py-4 px-2 hover:bg-white hover:ring-white hover:ring-offset-4 group border border-slate-400 border-opacity-70"
               v-for="item in services">
-              <img src="../assets/img/mentorship.png" alt="" class="h-12 w-12 mx-4">
               <p class="font-bold text-slate-600 group-hover:text-slate-500">{{ item.title }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-gray-100 relative">
+    <div class="bg-gray-50 relative">
       <!-- Our Programmes -->
       <div class="md:px-10 py-12 md:py-36  md:max-w-7xl mx-auto gap-4 px-4 ">
-        <h2 class="text-4xl md:text-6xl text-center text-sky-600">Our Programmes</h2>
+        <h2 class="text-4xl md:text-6xl text-center text-blue-900">Our Programmes</h2>
         <p class="mx-auto text-justify md:text-center my-4 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Officia error, corrupti odio qui necessitatibus dolorem eaque amet, libero magni numquam placeat dolore facere
           officiis molestiae sunt mollitia expedita dolor veritatis?</p>
@@ -58,7 +57,7 @@
               <img src="../assets/img/projectdigitalrural01.jpg" alt="" class="object-cover">
             </div>
             <div class="px-5 py-6 text-sm">
-              <h2 class="my-3 text-2xl">{{item.title}}</h2>
+              <h2 class="my-3 text-2xl text-blue-800">{{item.title}}</h2>
               <p class="text-gray-500">{{item.description}}</p>
               <router-link  :to="item.link"><p class="my-3 underline">Read more ...</p></router-link>
             </div>

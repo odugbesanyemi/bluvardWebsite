@@ -16,6 +16,8 @@
     "@mdi/font": "^7.0.96",
     "@popperjs/core": "^2.11.6",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@vue-hero-icons/outline": "^1.7.2",
+    "@vue-hero-icons/solid": "^1.7.2",
     "ant-design-vue": "^3.2.15",
     "bootstrap": "^5.2.2",
     "mdue": "^0.1.4",

@@ -18,8 +18,8 @@
           <!-- Testimonial card-->
           <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
             <img class="absolute inset-0 h-full w-full object-cover" src="../assets/img/projectdigitalrural01.jpg" alt="" />
-            <div class="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+            <div class="absolute inset-0 bg-blue-500/10 mix-blend-multiply" />
+            <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 opacity-90" />
             <div class="relative px-8">
               <blockquote class="mt-8">
                 <div class="relative text-lg font-medium text-white md:flex-grow">
@@ -40,10 +40,10 @@
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
         <!-- Content area -->
         <div class="pt-12 sm:pt-16 lg:pt-20">
-          <h2 class="text-5xl text-gray-900 tracking-tight">We're empowering out of school youths on </h2>
+          <h2 class="text-5xl text-blue-900 tracking-tight">We're empowering out of school youths on </h2>
           <div class="mt-6 text-gray-500 space-y-6">
-            <p class="text-lg text-md">If the prevalent school curriculums are not sufficient to prepare young people for the future, how then can we transform education beyond the confines of the classrooms?</p>
-            <p class="text-base text-md leading-7">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality, and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
+            <p class="text-lg">If the prevalent school curriculums are not sufficient to prepare young people for the future, how then can we transform education beyond the confines of the classrooms?</p>
+            <p class="text-lg  leading-7">If quality education is not just a basic human right but also fundamental in closing the gaps created by inequality, and ultimately reducing global poverty, how then do we democratize access to quality education for young people in rural communities across Nigeria?</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@
           <dl class="grid grid-cols-2 gap-x-2 gap-y-4">
             <div v-for="stat in stats" :key="stat.label" class="border-t-2 border-gray-100 pt-3">
               <dt class="text-base font-medium text-gray-500">{{ stat.label }}</dt>
-              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">{{ stat.value }}</dd>
+              <dd class="text-3xl font-extrabold tracking-tight text-blue-900">{{ stat.value }}</dd>
             </div>
           </dl>
           <div class="mt-10">

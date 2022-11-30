@@ -18,10 +18,10 @@
             </div>
             <div class="bg-blue-50">
                 <div
-                    class="p-2 md:p-20 sm:p-5 xs:p-3  max-w-6xl bg-transparent bg-opacity-0 mx-auto relative rounded -top-10 ">
+                    class="max-sm:p-5 md:p-15 sm:p-5 xs:p-3  max-w-6xl bg-transparent bg-opacity-0 mx-auto relative rounded -top-10 ">
                     <div class="flex md:flex-row flex-col gap-4">
                         <!-- donation form -->
-                        <div class="bg-gray-700 shadow-xl sm:w-1/2 h-full  rounded-lg">
+                        <div class="bg-gray-700 shadow-xl md:w-1/2 h-full  rounded-lg">
                             <h3 class="text-blue text-xl font-bold text-center rounded-t-md bg-blue-200 py-5"> Choose a
                                 Donation
                                 amount</h3>
@@ -31,7 +31,7 @@
                                         class="flex flex-row items-center gap-4 text-blue-50 border-b border-opacity-sm py-5 hover:bg-blue-50 hover:bg-opacity-5 p-4"
                                         v-for="item in donateOptions" :key="item.id">
                                         <input type="radio" name="donation" class="w-1/4 h-10">
-                                        <h1>${{ item.price }}</h1>
+                                        <h1 class="text-4xl">${{ item.price }}</h1>
                                         <p class="text-sm xs:hidden sm:block">{{ item.description }} </p>
                                     </label>
                                     <div class="my-4 p-5">
@@ -54,11 +54,11 @@
                             </div>
                         </div>
                         <!-- Name links -->
-                        <div class="donate-details sm:w-3/4 bg-white-400 shadow-xl rounded-lg bg-white">
+                        <div class="donate-details md:w-3/4 bg-white-400 shadow-xl rounded-lg bg-white">
                             <h3 class="text-blue text-xl font-bold text-center rounded-t-md bg-gray-200 py-5"> Kindly
                                 Fill in
                                 your information</h3>
-                            <div class="p-6">
+                            <div class="max-md:p-6 md:p-10">
                                 <div class="flex gap-4">
                                     <div class="w-1/2">
                                         <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
@@ -245,18 +245,18 @@ export default {
             donateOptions: [
                 {
                     id: "0.00",
-                    price: "10",
-                    description: "The Sum of 10 dollars would go a long way"
+                    price: "10.00",
+                    description: ""
                 },
                 {
                     id: 1,
-                    price: "20",
-                    description: "The Sum of 20 dollars would go a long way"
+                    price: "20.00",
+                    description: ""
                 },
                 {
                     id: 2,
-                    price: "30",
-                    description: "The Sum of 30 dollars would go a long way"
+                    price: "30.00",
+                    description: ""
                 },
             ],
             formData: {
