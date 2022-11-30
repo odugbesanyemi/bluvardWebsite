@@ -23,8 +23,8 @@
       <SvgDotsIcon class="absolute md:block top-0 opacity-80 right-30 right-1/2 -mr-3 lg:m-0 lg:left-0 " />
       <img src="../assets/img/IMG-20211222-WA0015.jpg"
         class="inset-0 w-full h-full object-cover -z-0 absolute opacity-5">
-      <div class="md:px-10 py-12 md:py-36 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto gap-4 px-4 items-center">
-        <div class="left md:w-1/4 w-full md:px-20 md:text-justify z-10">
+      <div class=" md:px-10 py-12 md:py-36 grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto gap-4 px-4 items-center">
+        <div class="left w-full md:px-5 md:text-justify z-10">
           <h2 class="text-4xl my-4 text-blue-900">How We Help</h2>
           <p class="leading- md:leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestias fuga
             explicabo porro officia veritatis aperiam eveniet consectetur similique, at incidunt necessitatibus quasi,

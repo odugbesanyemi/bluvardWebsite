@@ -31,7 +31,7 @@
                     class="flex items-center justify-center py-4 text-xl font-medium rounded-full  shadow-sm bg-indigo-700 text-white hover:bg-indigo-500 sm:px-8">
                     BECOME A VOLUNTEER </router-link>
                   <router-link to="/about"
-                    class="flex items-center justify-center px-4 py-4  text-xl font-medium rounded-full shadow-sm bg-white text-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
+                    class="flex items-center justify-center px-4 py-4  text-xl font-medium rounded-full shadow-sm bg-white text-indigo-500  hover:bg-opacity-70 sm:px-8">
                     LEARN MORE </router-link>
                 </div>
               </div>              

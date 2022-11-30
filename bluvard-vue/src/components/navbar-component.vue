@@ -8,7 +8,7 @@
           <div class="flex justify-between lg:w-0 lg:flex-1">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
-              <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_white_logo.svg" alt="">
+              <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_svg_logo.svg" alt="">
             </router-link>
           </div>
           <nav class="max-lg:hidden lg:flex space-x-10 items-center">
@@ -18,10 +18,10 @@
                 class="text-blue-500 group rounded-md inline-flex items-center text-base font-medium hover:text-blue-900 focus: py-5"
                 aria-expanded="false">
                 <router-link to="/about"
-                  class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  class="text-blue-900 group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   About us</router-link>
                 <svg
-                  class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  class="text-blue-700 ml-2 h-5 w-5 group-hover:text-opacity-50  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -45,7 +45,7 @@
                 </div>
               </div>
             </div>
-            <router-link to="/what-we-do" class="font-medium text-white hover:text-opacity-50 text-xl py-5"> what we do
+            <router-link to="/what-we-do" class="font-medium text-blue-900 hover:text-opacity-50 text-xl py-5"> what we do
             </router-link>
             <div class="relative group">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
@@ -53,9 +53,9 @@
                 class="text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900"
                 aria-expanded="false">
                 <router-link to="/getinvolved"
-                  class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50  py-5">
+                  class="text-blue-900 group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50  py-5">
                   Get Involved</router-link>
-                <svg class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50" xmlns="http://www.w3.org/2000/svg"
+                <svg class="text-blue-700 ml-2 h-5 w-5 group-hover:text-opacity-50" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -79,7 +79,7 @@
                 </div>
               </div>
             </div>
-            <router-link to="/contact" class="text-xl font-medium text-white hover:text-opacity-50 py-5"> Contact
+            <router-link to="/contact" class="text-xl font-medium text-blue-900 hover:text-opacity-50 py-5"> Contact
             </router-link>
             <!-- <router-link to="/sponsor" class="text-base font-medium text-gray-500 hover:text-gray-900">  </router-link> -->
           </nav>
@@ -90,7 +90,7 @@
               VOLUNTEER </router-link>
           </div>
           <div class="toggleBtn lg:hidden ml-auto" @click="mobileNav.visible = !mobileNav.visible">
-            <Bars3Icon class="h-10 w-10 text-white" />
+            <Bars3Icon class="h-10 w-10 text-blue-900" />
           </div>
         </div>
         <!-- mobile navbar -->
