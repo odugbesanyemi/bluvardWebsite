@@ -16,7 +16,7 @@
             <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
                 <div class="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div class="max-w-lg mx-auto">
-                        <p class="mt-3 text-3xl mb-10 font-extrabold leading-6 text-gray-500">Send us a message </p>
+                        <p class="mt-3 text-3xl mb-10 font-extrabold leading-6 text-sky-600">Send us a message </p>
                           <p class="mt-7 text-lg leading-6 text-gray-500">We are online 24/7 we respond almost immediately</p>
                         <dl class="mt-8 text-base text-gray-500">
                             <div>

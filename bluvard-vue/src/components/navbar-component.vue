@@ -13,15 +13,15 @@
             </router-link>
           </div>
           <nav class="hidden sm:flex space-x-10 items-center">
-            <div class="relative">
+            <div class="relative group">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-              <button type="button"
+              <button type="button" 
                 class="text-blue-500 group rounded-md inline-flex items-center text-base font-medium hover:text-blue-900 focus: py-5"
                 aria-expanded="false">
                 <router-link to="/about"
                   class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   About us</router-link>
-                <svg @click="Links.About.menuOpen = !Links.About.menuOpen"
+                <svg
                   class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
@@ -29,8 +29,8 @@
                     clip-rule="evenodd" />
                 </svg>
               </button>
-              <div :class="{ hidden: Links.About.menuOpen }"
-                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
+              <div 
+                class="hidden group-hover:block absolute z-10  top-12 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="relative grid gap-6 px-5 bg-white py-6 sm:gap-8 sm:p-8">
                     <router-link v-for="item in Links.About.links" :to="item.to"
@@ -48,7 +48,7 @@
             </div>
             <router-link to="/what-we-do" class="font-medium text-white hover:text-opacity-50 text-xl py-5"> what we do
             </router-link>
-            <div class="relative">
+            <div class="relative group">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <button type="button"
                 class="text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900"
@@ -56,7 +56,7 @@
                 <router-link to="/getinvolved"
                   class="text-white group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50  py-5">
                   Get Involved</router-link>
-                <svg @click="Links.getInvolved.menuOpen = !Links.getInvolved.menuOpen"
+                <svg 
                   class="text-white ml-2 h-5 w-5 group-hover:text-opacity-50" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd"
@@ -64,8 +64,8 @@
                     clip-rule="evenodd" />
                 </svg>
               </button>
-              <div :class="{ hidden: !Links.getInvolved.menuOpen }"
-                class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
+              <div
+                class="hidden group-hover:block absolute top-12 z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                     <router-link v-for="item in Links.getInvolved.links" :to="item.to"
@@ -86,7 +86,7 @@
             </router-link>
             <!-- <router-link to="/sponsor" class="text-base font-medium text-gray-500 hover:text-gray-900">  </router-link> -->
           </nav>
-          <div class="hidden sm:flex items-center md:flex-1 lg:w-0">
+          <div class="hidden sm:flex items-center md:flex  ml-auto ">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
@@ -228,22 +228,22 @@ export default {
             {
               title: "Donate",
               description: "Make an immediate and lasting impact with your resources",
-              to: ""
+              to: "/getinvolved/donate"
             },
             {
               title: "Partnerships",
               description: "Learn how your business can partner with us",
-              to: ""
+              to: "/getinvolved/partners"
             },
             {
               title: "FundRaise",
               description: "Support by raising for Needful communities and persons",
-              to: ""
+              to: "/getinvolved/fundraise"
             },
             {
               title: "Internships",
               description: "Join in the global change while offering your services",
-              to: ""
+              to: "/getinvolved/internship"
             },
           ]
         }
