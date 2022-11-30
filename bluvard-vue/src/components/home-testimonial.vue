@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
 <section>
-  <div class="mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:px-8 ">
-    <h2 class=" text-5xl text-center mb-9">What People are saying</h2>
+  <div class="mx-auto max-w-screen-xl px-4 py-12 md:py-36 sm:px-6 lg:px-8 ">
+    <h2 class=" text-5xl  mb-9 text-blue-900">What People are saying</h2>
     <div   class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
       <div class="mb-8 sm:break-inside-avoid " v-for="item in userComment">
         <blockquote class="rounded-xl bg-gray-50 p-6 shadow">

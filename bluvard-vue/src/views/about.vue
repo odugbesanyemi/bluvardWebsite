@@ -4,10 +4,11 @@
         <section class="aboutUs max-w-6xl mx-auto">
             <div class="about-header pb-md-5">
                 <h3 class="text-secondary pb-4">FOUNDER'S VISION</h3>
-                <h1 class="leading-tight text-sky-600">To empower, uplift and educate out of school and young individuals teaching them neccessary digital skill</h1>
+                <h1 class="leading-tight text-blue-900 max-md:text-4xl md:text-5xl">An Africa where access to holistic education becomes the everyday reality of all children living in rural communities
+                regardless of gender, tribe, or religion.</h1>
             </div>
             <div class="about-history flex md:flex-row py-5 gap-10 flex-col">
-                <div class="text-xl text-gray-600 w-3/4">
+                <div class="text-xl text-gray-600 md:w-3/4">
                     <p class=" leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deserunt nesciunt omnis,
                         sapiente inventore natus ipsam obcaecati quod, libero vel quos, explicabo quae id nihil?
                         Doloribus sequi ducimus eum explicabo.</p>
@@ -20,7 +21,7 @@
                         distinctio iure. Debitis dolorem nihil cum fugiat nesciunt similique, reprehenderit aut
                         asperiores perspiciatis fuga, fugit rem, sunt minus veniam doloremque sed!</p>
                 </div>
-                <div class="w-1/4">
+                <div class="md:w-1/4 ">
                     <img class=" rounded" src="../assets/img/pretty-lady.jpg" alt="">
                 </div>
             </div>
@@ -28,7 +29,7 @@
         <section class="bg-light max-w-6xl mx-auto">
             <div class="">
                 <div class="impact pb-5">
-                    <h2 class="pt-10 text-5xl mb-10 text-sky-600">Our Impact</h2>
+                    <h2 class="pt-10 text-5xl text-blue-900">Our Impact</h2>
                     <div class="flex md:flex-row flex-col gap-4 items-center">
                         <div class="leading-relaxed text-xl text-gray-500 basis-3/4">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit excepturi
@@ -58,7 +59,7 @@
         </section>
         <section class=" pb-5 max-w-6xl mx-auto">
             <div class="our-identity">
-                <h2 class="pt-10 text-5xl mb-10 text-sky-500">Our Identity</h2>
+                <h2 class="pt-10 text-5xl mb-5 text-blue-900">Our Identity</h2>
                 <div class="leading-normal text-xl mb-4">
                     <p class="text-gray-600 leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eius eveniet commodi,
                         suscipit vel facere non, alias veritatis harum maiores, esse ratione. Reprehenderit molestiae

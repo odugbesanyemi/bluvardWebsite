@@ -7,7 +7,7 @@
         <div class="max-w-6xl mx-auto">
           <div class="py-20">
             <p class="mb-4">About Us</p>
-            <h2 class="text-6xl text-sky-600">The Team</h2>
+            <h2 class="text-6xl text-blue-900">The Team</h2>
             <hr class="my-5">
             <p class="max-w-7xl text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium repellendus accusamus
@@ -29,7 +29,7 @@
 
                 <div class="space-y-2">
                   <div class="text-lg leading-6 font-medium space-y-1">
-                    <h3 class="text-3xl font-bold">{{ person.name }}</h3>
+                    <h3 class="text-3xl font-bold text-blue-900">{{ person.name }}</h3>
                     <p class="text-indigo-600">{{ person.role }}</p>
                   </div>
                   <ul role="list" class="flex space-x-5">

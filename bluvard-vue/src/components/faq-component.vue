@@ -4,7 +4,7 @@
       <div class="py-16 ">
         <div class="lg:grid lg:grid-cols-3 lg:gap-8">
           <div>
-            <h2 class="text-3xl text-gray-900">Frequently asked questions</h2>
+            <h2 class="text-3xl text-blue-900">Frequently asked questions</h2>
             <p class="mt-4 text-lg text-gray-500">Can’t find the answer you’re looking for? Reach out to our <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">customer support</a> team.</p>
           </div>
           <div class="mt-12 lg:mt-0 lg:col-span-2">

@@ -1,11 +1,11 @@
 <template>
     <div>
         <pageHeader :headerPic="headerImg" ></pageHeader>
-        <div class="px-4 sm:px-6 lg:px-8 text-center py-24 bg-blue-50">
+        <div class="px-4 sm:px-6 lg:px-8 text-center py-24 bg-blue-50 rounded-b-full">
             <div class="max-w-2xl mx-auto">
-                <h2 class="text-5xl py-3 text-sky-600">Get Involved</h2>
+                <h2 class="text-5xl py-3 text-blue-900">Get Involved</h2>
                 <p class="mb-8 text-sky-600">Join us in our global change Movement</p>
-                <p class="text-sky-600 opacity-70 mt-4 text-xl leading-tight">It all starts with your choice to act instead of looking away. You meet a need and that starts a chain reaction. Families break free of poverty, begin to work toward a better future, and become open to spiritual renewal. Your action has the power to transform a life, a family, an entire village.</p>
+                <p class="opacity-70 mt-4 text-xl leading-tight">It all starts with your choice to act instead of looking away. You meet a need and that starts a chain reaction. Families break free of poverty, begin to work toward a better future, and become open to spiritual renewal. Your action has the power to transform a life, a family, an entire village.</p>
             </div>
         </div>
         <div class="contentGrid py-20">
@@ -13,9 +13,9 @@
                 <div class="p-4 hover:shadow-xl mb-6 bg-white shadow rounded" v-for="item in involvedPages" :key="item.id">
                     <img :src="item.pictureName" alt="" class="w-full rounded">
                     <div class="px-4 py-3">
-                        <h2 class="py-3 text-3xl text-blue-600">{{item.title}}</h2>
+                        <h2 class="py-3 text-3xl text-blue-800">{{item.title}}</h2>
                         <p class="py-2 text-gray-500 pb-4">{{item.description}}</p>
-                        <router-link :to="item.btnLink" ><button class="button bg-blue-900 hover:bg-blue-700 rounded px-5 py-3 text-blue-100">{{item.btnName}}  <ChevronDoubleRightIcon class="w-5 ml-3 inline-block" /></button></router-link>
+                        <router-link :to="item.btnLink" ><button class="button bg-blue-900 hover:bg-blue-700 rounded px-5 py-3 text-blue-100 max-sm:w-full">{{item.btnName}}  <ChevronDoubleRightIcon class="w-5 ml-3 inline-block" /></button></router-link>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ export default {
                     title:"Fundraise",
                     description:"Join with others to bring transformation to the lives of children, families, and communities in some of the most remote and impoverished places of the world by fundraising for World Concern.",
                     btnName:"Start Funding",
-                    btnLink:"/getinvolved/funding",                    
+                    btnLink:"/getinvolved/fundraise",                    
                 },
                 {
                     id:0,

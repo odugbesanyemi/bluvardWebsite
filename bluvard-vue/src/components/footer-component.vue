@@ -1,17 +1,15 @@
 
 <template>
-  <footer aria-label="Site Footer" class="bg-gray-50">
+  <footer aria-label="Site Footer" class="bg-white">
     <div class="">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 mx-auto max-w-screen-xl px-4 pt-16 :px-6 lg:px-8 lg:pt-24">
-        <div>
-          <div class="flex justify-center text-blue-500 sm:justify-start align-center">
+        <div class="">
+          <div class="flex justify-center mx-auto w-full text-blue-500 align-center">
             <img class="w-20" src="../assets/Bluvard_svg_logo.svg" alt="">
           </div>
-
-          <p class=" mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:mx-0 sm:max-w-xs sm:text-left">Bridging
+          <p class="mt-6 max-w-md text-center mx-auto leading-relaxed text-gray-500 sm:mx-0 sm:max-w-xs sm:text-left">Bridging
             the Education Divide, Inspiring Hope.</p>
-
-          <div class="flex space-x-6 py-3">
+          <div class="flex space-x-6 py-3 justify-center">
             <a href="#" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">Facebook</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -60,7 +58,7 @@
 
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-gray-900">About Us</p>
+            <p class="text-lg font-medium text-blue-900">About Us</p>
 
             <nav aria-label="Footer About Nav" class="mt-8">
               <ul class="space-y-4 text-sm">
@@ -92,7 +90,7 @@
           </div>
 
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-gray-900">Our Solutions</p>
+            <p class="text-lg font-medium text-blue-900">Our Solutions</p>
 
             <nav aria-label="Footer Services Nav" class="mt-8">
               <ul class="space-y-4 text-sm">
@@ -124,7 +122,7 @@
           </div>
 
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-gray-900">Helpful Links</p>
+            <p class="text-lg font-medium text-blue-900">Helpful Links</p>
 
             <nav aria-label="Footer Helpful Nav" class="mt-8">
               <ul class="space-y-4 text-sm">
@@ -158,7 +156,7 @@
           </div>
 
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-gray-900">Contact Us</p>
+            <p class="text-lg font-medium text-blue-900">Contact Us</p>
 
             <ul class="mt-8 space-y-4 text-sm">
               <li>

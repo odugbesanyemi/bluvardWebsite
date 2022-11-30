@@ -3,18 +3,14 @@
     <div>
         <!-- contact-header  -->
         <headerComponent
-            header-pic="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
-            title="Get in Touch"
-            description="We would love to hear from you"
-            />
-
+            header-pic="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"/>
         <!-- contact form -->
         <div class="relative bg-white">
             <div class="absolute inset-0">
                 <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
             </div>
             <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-                <div class="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+                <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div class="max-w-lg mx-auto">
                         <p class="mt-3 text-3xl mb-10 font-extrabold leading-6 text-sky-600">Send us a message </p>
                           <p class="mt-7 text-lg leading-6 text-gray-500">We are online 24/7 we respond almost immediately</p>
