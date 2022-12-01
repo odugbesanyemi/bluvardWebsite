@@ -7,8 +7,8 @@
 
         <div class="container">
             <div class="md:flex md:max-w-6xl mx-auto md:py-20 md:gap-10 ">
-                <div class="md:w-3/5 md:p-32">
-                    <div class="">
+                <div class="md:w-3/5 ">
+                    <div class="max-md:p-10">
                         <h1 class="text-5xl text-sky-800">Intern With Us</h1>
                         <p class="mt-10 text-2xl font-bold text-gray-800">Get involved with World Concern and sharpen
                             your gifts and talents to transform lives around the
