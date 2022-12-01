@@ -16,6 +16,10 @@ import aboutPress from "../views/about-press.vue"
 import partnershipPage from "../views/partnerships.vue"
 import internshipPage from "../views/internships.vue"
 import fundraisePage from "../views/fundraise.vue"
+import caseStudy from "../views/case-study.vue"
+
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -104,6 +108,12 @@ const router = createRouter({
       path:"/aboutPress",
       name: "about-press",
       component: aboutPress,
+    },
+
+    {
+      path:"/caseStudy",
+      name: "case-study",
+      component: caseStudy,
     },
   ],
 });

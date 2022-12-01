@@ -5,7 +5,7 @@ import myFooter from './components/footer-component.vue'
 import lsidebar from './components/left-sidebar.vue'
 export default {
   components: {
-    navbar,myFooter,lsidebar
+    navbar,myFooter,lsidebar,
   },
   data(){
     return{
