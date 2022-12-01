@@ -269,6 +269,12 @@ export default {
         }
       }
     }
+  },
+  watch: {
+    $route() {
+      this.mobileNav.visible = false
+      // add a 
+    }
   }
 }
 </script>

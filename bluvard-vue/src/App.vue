@@ -26,11 +26,11 @@ export default {
   },
   mounted(){
     window.addEventListener('scroll',this.onScroll)
-    alert('hhelo')
   },
   beforeDestroy(){
     window.removeEventListener('scroll',this.onScroll)
-  }
+  },
+
 }
 </script>
 
