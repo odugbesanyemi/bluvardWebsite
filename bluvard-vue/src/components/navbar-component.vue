@@ -4,8 +4,8 @@
     <header>
       <div class="relative ">
         <!-- pc Navbar -->
-        <div class="flex max-w-lg mx-auto px-5 lg:container py-4 items-center w-full">
-          <div class="flex justify-between lg:w-0 lg:flex-1">
+        <div class="flex justify-between max-w-lg mx-auto px-5 lg:container max-md:py-4 md:py-2 items-center w-full">
+          <div class="flex justify-between lg:w-0 lg:flex-1 ">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
               <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_svg_logo.svg" alt="">
@@ -87,7 +87,7 @@
           <div class="max-lg:hidden lg:flex items-center">
             <!-- <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a> -->
             <router-link to="/volunteer"
-              class="py-3 text-xl font-medium rounded-full ml-6 shadow-sm bg-indigo-700 text-white hover:bg-indigo-500 sm:px-8">
+              class="py-3 text-xl font-medium rounded-full ml-10 shadow-sm bg-gradient-to-tr from-blue-700 to-blue-500 text-white hover:bg-blue-500 sm:px-8">
               VOLUNTEER </router-link>
           </div>
           <div class="toggleBtn lg:hidden ml-auto" @click="mobileNav.visible = !mobileNav.visible">
@@ -268,6 +268,12 @@ export default {
           ]
         }
       }
+    }
+  },
+  watch: {
+    $route() {
+      this.mobileNav.visible = false
+      // add a 
     }
   }
 }

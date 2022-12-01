@@ -28,7 +28,7 @@
               <div class="mt-10 mx-auto sm:max-w-none">
                 <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                   <router-link to="/volunteer"
-                    class="flex items-center justify-center py-4 text-xl font-medium rounded-full  shadow-sm bg-indigo-700 text-white hover:bg-indigo-500 sm:px-8">
+                    class="flex items-center justify-center py-4 px-4 text-xl font-medium rounded-full shadow-sm bg-gradient-to-tr from-blue-700 to-blue-500 text-white hover:bg-blue-500 sm:px-8">
                     BECOME A VOLUNTEER </router-link>
                   <router-link to="/about"
                     class="flex items-center justify-center px-4 py-4  text-xl font-medium rounded-full shadow-sm bg-white text-indigo-500  hover:bg-opacity-70 sm:px-8">

@@ -11,6 +11,7 @@ export default {
     return{
       showNavbar:true,
       lastScrollPosition:0,
+      preload:false,
     }
   },
   methods:{
@@ -26,11 +27,15 @@ export default {
   },
   mounted(){
     window.addEventListener('scroll',this.onScroll)
-    alert('hhelo')
   },
   beforeDestroy(){
     window.removeEventListener('scroll',this.onScroll)
-  }
+  },
+  // watch:{
+  //   $route(){
+      
+  //   }
+  // }
 }
 </script>
 
