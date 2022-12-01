@@ -29,7 +29,7 @@
         <section class="bg-light max-w-6xl mx-auto">
             <div class="">
                 <div class="impact pb-5">
-                    <h2 class="pt-10 text-5xl text-blue-900">Our Impact</h2>
+                    <h2 class="pt-10 text-5xl text-blue-900 mb-5">Our Impact</h2>
                     <div class="flex md:flex-row flex-col gap-4 items-center">
                         <div class="leading-relaxed text-xl text-gray-500 basis-3/4">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit excepturi
@@ -38,8 +38,8 @@
                                 numquam sunt est quam sed eligendi, tempore placeat adipisci blanditiis dicta quia
                                 minima qui unde enim!</p>
                         </div>
-                        <div class="my-6 md:my-0">
-                            <img class="rounded w-md-100" src="../assets/img/slum-kids.jpg" alt="">
+                        <div class="my-6 md:my-0 max-sm:w-full">
+                            <img class="rounded w-md-100 w-full" src="../assets/img/slum-kids.jpg" alt="">
                         </div>
                     </div>
                     <div class="flex md:flex-row flex-col mt-4 gap-4 items-center">
@@ -50,7 +50,7 @@
                                 numquam sunt est quam sed eligendi, tempore placeat adipisci blanditiis dicta quia
                                 minima qui unde enim!</p>
                         </div>
-                        <div class="my-6 md:my-0">
+                        <div class="my-6 md:my-0 max-sm:w-full">
                             <img class="rounded w-md-100" src="../assets/img/slum-kids.jpg" alt="">
                         </div>
                     </div>

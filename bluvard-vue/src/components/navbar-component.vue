@@ -45,7 +45,8 @@
                 </div>
               </div>
             </div>
-            <router-link to="/what-we-do" class="font-medium text-blue-900 hover:text-opacity-50 text-xl py-5"> what we do
+            <router-link to="/what-we-do" class="font-medium text-blue-900 hover:text-opacity-50 text-xl py-5"> what we
+              do
             </router-link>
             <div class="relative group">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
@@ -95,8 +96,8 @@
         </div>
         <!-- mobile navbar -->
         <div :class="{ hidden: !mobileNav.visible }"
-          class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          class="absolute z-30 top-0 inset-x-0  transition transform origin-top-right md:hidden">
+          <div class="shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <div class="flex items-center justify-between mb-8">
                 <div>
@@ -116,17 +117,70 @@
               </div>
               <div class="mt-6">
                 <nav class="grid grid-cols-1 gap-7">
-                  <router-link to="/about" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                    <div class=" text-base font-medium text-gray-900">About Us</div>
+                  <div class="relative group">
+                    <button type="button"
+                      class="text-blue-500 group rounded-md inline-flex items-center justify-between text-base font-medium w-full hover:text-blue-900 py-3"
+                      aria-expanded="false">
+                      <router-link to="/about"
+                        class="text-blue-900 group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        About us</router-link>
+                      <svg
+                        class="text-blue-700 ml-2 h-5 w-5 group-hover:text-opacity-50  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </button>
+                    <div
+                      class="hidden group-hover:block z-10 mt-3  w-screen max-w-sm sm:px-0">
+                      <div class=" ring-opacity-5 overflow-hidden">
+                        <div class="relative grid gap-3   bg-white py-6 sm:gap-8 sm:p-8">
+                          <router-link v-for="item in Links.About.links" :to="item.to"
+                            class="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                            <p class="text-base font-medium text-gray-900">
+                              {{ item.title }}
+                            </p>
+                            <hr class="mt-3">
+                          </router-link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <router-link to="/what-we-do" class="-m-3 px-3 flex items-center rounded-lg hover:bg-gray-50">
+                    <div class="font-medium text-blue-900 text-xl">What We Do</div>
                   </router-link>
-                  <router-link to="/what-we-do" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                    <div class=" text-base font-medium text-gray-900">What We Do</div>
-                  </router-link>
-                  <router-link to="/getinvolved" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                    <div class=" text-base font-medium text-gray-900">Get Involved</div>
-                  </router-link>
+                  <div class="relative group">
+                    <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                    <button type="button"
+                      class="w-full justify-between  group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900"
+                      aria-expanded="false">
+                      <router-link to="/getinvolved"
+                        class="text-blue-900 group rounded-md inline-flex items-center text-xl font-medium hover:text-opacity-50 ">
+                        Get Involved</router-link>
+                      <svg class="text-blue-700 ml-2 h-5 w-5 group-hover:text-opacity-50"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </button>
+                    <div class="hidden group-hover:block z-10 mt-3  w-screen max-w-sm sm:px-0">
+                      <div class=" ring-opacity-5 overflow-hidden">
+                        <div class="relative grid gap-3   bg-white py-6 sm:gap-8 sm:p-8">
+                          <router-link v-for="item in Links.getInvolved.links" :to="item.to"
+                            class="-m-3 p-3 block rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                            <p class="text-base font-medium text-gray-900">
+                              {{ item.title }}
+                            </p>
+                            <hr class="mt-3">
+                          </router-link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <router-link to="/contact" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
-                    <div class=" text-base font-medium text-gray-900">Contact</div>
+                    <div class=" text-xl font-medium text-blue-900">Contact</div>
                   </router-link>
                 </nav>
               </div>
