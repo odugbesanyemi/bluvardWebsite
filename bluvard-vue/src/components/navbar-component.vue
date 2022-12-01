@@ -4,8 +4,8 @@
     <header>
       <div class="relative ">
         <!-- pc Navbar -->
-        <div class="flex max-w-lg mx-auto px-5 lg:container max-md:py-4 md:py-2 items-center w-full">
-          <div class="flex justify-between lg:w-0 lg:flex-1">
+        <div class="flex justify-between max-w-lg mx-auto px-5 lg:container max-md:py-4 md:py-2 items-center w-full">
+          <div class="flex justify-between lg:w-0 lg:flex-1 ">
             <router-link to="/">
               <span class="sr-only">Bluvard Education Initiative</span>
               <img class="h-10 w-auto sm:h-10" src="../assets/Bluvard_svg_logo.svg" alt="">

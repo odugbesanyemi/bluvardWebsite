@@ -5,12 +5,13 @@ import myFooter from './components/footer-component.vue'
 import lsidebar from './components/left-sidebar.vue'
 export default {
   components: {
-    navbar,myFooter,lsidebar
+    navbar,myFooter,lsidebar,
   },
   data(){
     return{
       showNavbar:true,
       lastScrollPosition:0,
+      preload:false,
     }
   },
   methods:{
@@ -30,11 +31,11 @@ export default {
   beforeDestroy(){
     window.removeEventListener('scroll',this.onScroll)
   },
-  watch:{
-    $route(){
-      alert("hello")
-    }
-  }
+  // watch:{
+  //   $route(){
+      
+  //   }
+  // }
 }
 </script>
 
