@@ -6,9 +6,9 @@
 
 
         <div class="container">
-            <div class="md:flex md:max-w-6xl mx-auto md:py-20 md:gap-10 ">
+            <div class="md:flex md:max-w-6xl max-md:max-w-sm mx-auto md:py-20 md:gap-10">
                 <div class="md:w-3/5 ">
-                    <div class="max-md:p-10">
+                    <div class="max-md:px-6 max-md:py-10">
                         <h1 class="text-5xl text-blue-900">Intern With Us</h1>
                         <p class="mt-10 text-2xl font-bold text-gray-800">Get involved with World Concern and sharpen
                             your gifts and talents to transform lives around the
@@ -40,9 +40,9 @@
                     </div>
                 </div>
 
-                <div class="max-md:p-2 flex-initial md:w-2/5 ">
+                <div class="max-md:p-5 flex-initial md:w-2/5 ">
                     <div class="bg-gray-50 md:p-10">
-                        <div class="">
+                        <div class="p-5">
                             <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
                                 <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl max-md:p-2">Frequently asked questions</h2>
                                 <dl class="mt-6 space-y-6 divide-y divide-gray-200">
