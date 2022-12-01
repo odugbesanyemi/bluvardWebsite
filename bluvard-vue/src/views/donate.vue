@@ -18,7 +18,7 @@
             </div>
             <div class="bg-blue-50">
                 <div
-                    class="max-sm:p-5 md:p-15 sm:p-5 xs:p-3  max-w-6xl bg-transparent bg-opacity-0 mx-auto relative rounded -top-10 ">
+                    class="max-sm:p-2 md:p-15 sm:p-5 xs:p-3  max-w-6xl bg-transparent bg-opacity-0 mx-auto relative rounded -top-10 ">
                     <div class="flex md:flex-row flex-col gap-4">
                         <!-- donation form -->
                         <div class="bg-gray-700 shadow-xl md:w-1/2 h-full  rounded-lg">
@@ -59,8 +59,8 @@
                                 Fill in
                                 your information</h3>
                             <div class="max-md:p-6 md:p-10">
-                                <div class="flex gap-4">
-                                    <div class="w-1/2">
+                                <div class="md:flex gap-4">
+                                    <div class="md:w-1/2 max-md:mb-3">
                                         <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                                         <div class="mt-1">
                                             <input type="email" name="email" id="email"
@@ -69,7 +69,7 @@
                                                 autocomplete />
                                         </div>
                                     </div>
-                                    <div class="w-1/2">
+                                    <div class="md:w-1/2">
                                         <label for="email" class="block text-sm font-medium text-gray-700">Phone
                                             Number</label>
                                         <div class="mt-1">
@@ -87,8 +87,8 @@
                                             placeholder="Your Name" v-model="formData.name" required />
                                     </div>
                                 </div>
-                                <div class="flex gap-4 items-center">
-                                    <div class="my-4 w-1/2">
+                                <div class="md:flex gap-4 items-center">
+                                    <div class="md:w-1/2 max-md:mb-3">
                                         <label for="location"
                                             class="block text-sm font-medium text-gray-700">Location</label>
                                         <select id="location" name="location"
@@ -99,7 +99,7 @@
                                             <option>Mexico</option>
                                         </select>
                                     </div>
-                                    <div class="my-4 w-1/2">
+                                    <div class="my-4 md:w-1/2">
                                         <label for="location"
                                             class="block text-sm font-medium text-gray-700">Location</label>
                                         <select id="location" name="location"
@@ -172,27 +172,33 @@
         </div>
         <span class="bg-gray-600 bg-opacity-10  w-full h-full top-0 left-0 fixed" v-if="paymentModal"> </span>
 
-        <div class="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 p-2" v-if="paymentModal">
-            
-            <div class="px-6 py-10 w-96 sm:w-full mx-auto rounded-lg md:px-30 bg-yellow-50 text-gray-700 text-opacity-10 ring-offset-4 ring-yellow-200">
-                <XMarkIcon class="absolute top-5 text-red-500 p-2 right-10 w-16 rounded-4xl" @click="paymentModal=!paymentModal"/>
-                <h1 class="">Thank you</h1>
-                <p class=" text-opacity-60 md:w-3/4">Thank you for your thoughtful support to join in the great global change with Bluvard Education Initiative. We</p>
-                <h2 class="text-xl mt-4 mb-6">Account Details</h2>
-                <table class="text-gray-600">
-                    <tr>
-                        <td class="text-xl font-bold md:text-40">Bank Name: </td>
-                        <td class="text-xl px-3 md:text-40">Polaris</td>
-                    </tr>
-                    <tr>
-                        <td class="text-xl font-bold md:text-40">Account Number: </td>
-                        <td class="text-xl px-3 md:text-40">0225626216</td>
-                    </tr>
-                    <tr>
-                        <td class="text-xl font-bold md:text-40">Account Name: </td>
-                        <td class="text-xl px-3 md:text-40">Bluvard Education Initiative</td>
-                    </tr>
-                </table>
+        <div class="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 max-sm:px-2" v-if="paymentModal">
+
+            <div class=" max-sm:w-1/2 px-6 py-10 w-96 sm:w-full mx-auto rounded-lg md:px-30 bg-blue-900 text-white">
+                <XMarkIcon class="absolute top-5 text-red-500 p-2 right-10 w-16 rounded-4xl"
+                    @click="paymentModal = !paymentModal" />
+                <div class="max-sm:w"></div>
+                <div>
+                    <h1 class="text-5xl mb-4">Thank you</h1>
+                    <p class=" text-opacity-60 md:w-3/4">Thank you for your thoughtful support to join in the great
+                        global change with Bluvard Education Initiative. We</p>
+                    <h2 class="text-xl mt-4 mb-6">Account Details</h2>
+                    <table class="text-sm">
+                        <tr>
+                            <td class="text-xl font-bold md:text-40">Bank Name: </td>
+                            <td class="text-xl px-3 md:text-40">Polaris</td>
+                        </tr>
+                        <tr>
+                            <td class="text-xl font-bold md:text-40">Account Number: </td>
+                            <td class="text-xl px-3 md:text-40">0225626216</td>
+                        </tr>
+                        <tr>
+                            <td class="text-xl font-bold md:text-40">Account Name: </td>
+                            <td class="text-xl px-3 md:text-40">Bluvard Education Initiative</td>
+                        </tr>
+                    </table>
+                </div>
+
             </div>
         </div>
 
@@ -206,7 +212,7 @@ import pageHeader from "../components/page-header.vue"
 import headerImg from "../assets/img/active-african-descent-american-1353351.jpg"
 import { XMarkIcon } from '@heroicons/vue/24/solid'
 export default {
-    components: { pageHeader,XMarkIcon },
+    components: { pageHeader, XMarkIcon },
     methods: {
         submitForm() {
             // get the values of the formdata 

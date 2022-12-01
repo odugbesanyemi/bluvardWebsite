@@ -22,7 +22,7 @@
           <span class="absolute w-full h-screen bg-gradient-to-tr from-blue-900 to-sky-600/10 backdrop-blur-sm "></span>
           <div class="relative md:inset-0 md:buttom-0 max-sm:p-10">
             <div class="sm:max-w-lg md:max-w-xl lg:max-w-3xl xl:max-w-5xl mx-auto">
-              <h1 class="text-6xl text-white lg:text-7xl xl:max-w-2xl">
+              <h1 class="max-sm:text-5xl text-white lg:text-7xl xl:max-w-2xl">
                 Bridging Educational Barriers, Inspiring Hope
               </h1>
               <div class="mt-10 mx-auto sm:max-w-none">
