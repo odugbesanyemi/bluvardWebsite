@@ -30,7 +30,11 @@ export default {
   beforeDestroy(){
     window.removeEventListener('scroll',this.onScroll)
   },
-
+  watch:{
+    $route(){
+      alert("hello")
+    }
+  }
 }
 </script>
 

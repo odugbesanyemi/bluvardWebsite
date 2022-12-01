@@ -11,7 +11,7 @@
         <p class="mt-3 text-lg text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
         <div class="mt-8">
           <div class="inline-flex rounded-md shadow">
-            <router-link to="/volunteer" class="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full bg-blue-600 ring-white text-white hover:bg-blue-900">
+            <router-link to="/volunteer" class="flex items-center justify-center py-4 px-4 text-xl font-medium rounded-full shadow-sm bg-gradient-to-tr from-blue-700 to-blue-500 text-white hover:bg-blue-500 sm:px-8">
               BECOME A VOLUNTEER
             </router-link>
           </div>
