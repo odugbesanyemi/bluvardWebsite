@@ -1,7 +1,7 @@
 <template>
      <h2 class="text-4xl text-center py-10 text-blue-800">View Some of our Reserve Moments</h2>
-    <div class="grid grid-cols-5 gap-5 md:6-sm md:max-w-6xl mx-auto">
-        <div>
+    <div class="grid max-md:grid-cols-2 max-md:gap-2 md:grid-cols-5 md:gap-5 md:6-sm md:max-w-6xl mx-auto">
+        <div class="md:shrink-0">
             <img src="../assets/img/14.jpg" alt="" srcset="">
         </div>
         <div>
