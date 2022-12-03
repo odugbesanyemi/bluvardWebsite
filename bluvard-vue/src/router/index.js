@@ -19,6 +19,7 @@ import fundraisePage from "../views/fundraise.vue"
 import caseStudy from "../views/case-study.vue"
 import centreEducation from "../views/centre-education.vue"
 import ruralStudy from "../views/rural-study.vue"
+import digitalStudy from "../views/digital-study.vue"
 
 
 
@@ -128,6 +129,12 @@ const router = createRouter({
       path:"/ruralStudy",
       name: "rural-study",
       component: ruralStudy,
+    },
+
+    {
+      path:"/digitalStudy",
+      name: "digital-study",
+      component: digitalStudy,
     },
   ],
 });
