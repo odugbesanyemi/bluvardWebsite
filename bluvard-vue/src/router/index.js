@@ -17,6 +17,8 @@ import partnershipPage from "../views/partnerships.vue"
 import internshipPage from "../views/internships.vue"
 import fundraisePage from "../views/fundraise.vue"
 import caseStudy from "../views/case-study.vue"
+import centreEducation from "../views/centre-education.vue"
+import ruralStudy from "../views/rural-study.vue"
 
 
 
@@ -114,6 +116,18 @@ const router = createRouter({
       path:"/caseStudy",
       name: "case-study",
       component: caseStudy,
+    },
+
+    {
+      path:"/centreEducation",
+      name: "centre-education",
+      component: centreEducation,
+    },
+
+    {
+      path:"/ruralStudy",
+      name: "rural-study",
+      component: ruralStudy,
     },
   ],
 });
